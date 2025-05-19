@@ -1,0 +1,27 @@
+<div class="download-container">
+  <a href="/pdfs/{{ .Get "file" }}" download class="download-btn">
+     {{ .Get "label" | default "Télécharger le PDF" }}
+  </a>
+</div>
+
+<style>
+.download-container {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.download-btn {
+  display: inline-block;
+  background-color: #2563eb; /* bleu */
+  color: white;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+.download-btn:hover {
+  background-color: #1e40af; /* bleu plus foncé */
+}
+</style>

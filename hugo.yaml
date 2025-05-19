@@ -7,141 +7,110 @@ caches:
   images:
     dir: :cacheDir/images
 
-pagination:
-  pagerSize: 10
-theme: PaperMod
-
-enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
-
-googleAnalytics: UA-123-45
-
-minify:
-  disableXML: true
-  minifyOutput: true
+defaultContentLanguage: fr
+defaultContentLanguageInSubdir: true
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
-  # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
-
+  displayFullLangName: true
+  mainSections:
+    - projects
+  defaultTheme: auto
+  # disableThemeToggle: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: false
-  tocopen: false
+  ShowDate: true
+  author: Alexandre Pichot
+  images: ["1739734917588.jpg"]
 
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+languages:
+  # en:
+  #   languageName: 🇬🇧
+  #   weight: 10
+  #   contentDir: content/en
+  #   title: Redwan
+  #   menu:
+  #     main:
+  #       - identifier: accueil
+  #         name: 🏠 Home
+  #         url: /en/
+  #         weight: 10
+  #       - identifier: about
+  #         name: 🙂 About
+  #         url: /en/about/
+  #         weight: 20
+  #       - identifier: projets
+  #         name: 🔧 Projects
+  #         url: /en/projects/
+  #         weight: 30
+  #   params:
+  #     images: ["1739734917588.jpg"]
+  #     profileMode:
+  #       enabled: true
+  #       title: "Alexandre Pichot" # optional default will be site title
+  #       subtitle: "Third-year student in EEE, I'm looking for an engineering school in the fields of electrical energy or IoT."
+  #       imageUrl: "1739734917588.jpg" # optional
+  #       imageTitle: "Alexandre Pichot" # optional
+  #       imageWidth: 120 # custom size
+  #       imageHeight: 120 # custom size
+  #       buttons:
+  #         - name: Download resume
+  #           url: "/en/CV_Pichot.pdf"
+  #     DateFormat: "January 2, 2006"
+  #     socialIcons: # optional
+  #       - name: "linkedin"
+  #         url: "https://www.linkedin.com/in/alexandre-pichot-a81360233/"
+  #       - name: "github"
+  #         url: "https://github.com/Pichot06"
+  #       - name: "email"
+  #         url: "mailto:alexandre.pichotx@gmail.com"
 
-  label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+  fr:
+    languageName: 🇫🇷
+    weight: 20
+    title: Alexandre
+    contentDir: content/fr
+    menu:
+      main:
+        - identifier: accueil
+          name: 🏠 Accueil
+          url: /fr/
+          weight: 10
+        - identifier: about
+          name: 🙂 À propos
+          url: /fr/about/
+          weight: 20
+        - identifier: projects
+          name: 🔧 Projets
+          url: /fr/projects/
+          weight: 30
 
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+    params:
+      images: ["1739734917588.jpg"]
+      profileMode:
+        enabled: true
+        title: "Alexandre Pichot" # optional default will be site title
+        subtitle: "Étudiant en troisème année de BUT GEII, je suis à la recherche d'une école d'ingénieur dans les domaines de l'énergie électrique, informatique industrielle ou électronique "
+        imageUrl: "1739734917588.jpg" # optional
+        imageTitle: "Alexandre Pichot" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        buttons:
+          - name: Télécharger le CV
+            url: "/fr/CV_Pichot.pdf"
+      DateFormat: "2 January 2006"
 
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+      socialIcons: # optional
+        - name: "linkedin"
+          url: "https://www.linkedin.com/in/alexandre-pichot-a81360233/"
+        - name: "github"
+          url: "https://github.com/Pichot06"
+        - name: "email"
+          url: "mailto:alexandre.pichotx@gmail.com"
 
-  socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
-
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
-
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
-
-  # for search
-  # https://fusejs.io/api/options.html
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-    keys: ["title", "permalink", "summary", "content"]
-menu:
-  main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
 markup:
-  highlight:
-    noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+  goldmark:
+    renderer:
+      unsafe: true
