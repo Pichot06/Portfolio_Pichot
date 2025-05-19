@@ -111,8 +111,13 @@ Le principe est simple en apparence, mais exigeant sur le plan technique : chaqu
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/fr/projects/" title="🔧 Projets">
-                    <span>🔧 Projets</span>
+                <a href="http://localhost:1313/fr/projects_personnel/" title="🔧 Projets personnel">
+                    <span>🔧 Projets personnel</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/fr/projects_academique/" title="🎓 Projets Académique">
+                    <span>🎓 Projets Académique</span>
                 </a>
             </li>
         </ul>
@@ -122,11 +127,11 @@ Le principe est simple en apparence, mais exigeant sur le plan technique : chaqu
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://localhost:1313/fr/">Accueil</a>&nbsp;»&nbsp;<a href="http://localhost:1313/fr/projects/">🔧 Projets</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/fr/">Accueil</a></div>
     <h1 class="post-title entry-hint-parent">
       Concours de Robotique Cachan deuxième
     </h1>
-    <div class="post-meta"><span title='2024-08-08 00:00:00 +0000 UTC'>8 août 2024</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Matthis Villet, Tallal Bouzidi, Alexandre Pichot
+    <div class="post-meta"><span title='2024-08-08 00:00:00 +0000 UTC'>8 août 2024</span>&nbsp;·&nbsp;7 min&nbsp;·&nbsp;Matthis Villet, Tallal Bouzidi, Alexandre Pichot
 
 </div>
   </header> 
@@ -143,13 +148,31 @@ Le principe est simple en apparence, mais exigeant sur le plan technique : chaqu
                 <li>
                     <a href="#explication-du-projet" aria-label="Explication Du projet">Explication Du projet</a></li>
                 <li>
-                    <a href="#mes-missions-dans-le-projet" aria-label="Mes missions dans le projet">Mes missions dans le projet</a></li>
+                    <a href="#mes-missions-dans-le-projet" aria-label="Mes missions dans le projet">Mes missions dans le projet</a><ul>
+                        
                 <li>
                     <a href="#carte-commande" aria-label="Carte commande">Carte commande</a></li>
                 <li>
                     <a href="#carte-ihm" aria-label="Carte IHM">Carte IHM</a></li>
                 <li>
-                    <a href="#impression-3d" aria-label="Impression 3d">Impression 3d</a>
+                    <a href="#impression-3d" aria-label="Impression 3d">Impression 3d</a><ul>
+                        
+                <li>
+                    <a href="#tour" aria-label="Tour">Tour</a></li>
+                <li>
+                    <a href="#face-arriere-du-robot" aria-label="Face arriere du robot">Face arriere du robot</a></li>
+                <li>
+                    <a href="#porte-aiguille" aria-label="Porte aiguille">Porte aiguille</a></li>
+                <li>
+                    <a href="#porte-lidiar" aria-label="Porte lidiar">Porte lidiar</a></li>
+                <li>
+                    <a href="#face-du-dessus-droitegauche" aria-label="Face du dessus (droite,gauche)">Face du dessus (droite,gauche)</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#le-projet-finalis%c3%a9" aria-label="Le projet finalisé">Le projet finalisé</a></li>
+                <li>
+                    <a href="#conclusion--un-rapport-humain" aria-label="Conclusion : Un rapport humain">Conclusion : Un rapport humain</a>
                 </li>
             </ul>
         </div>
@@ -157,7 +180,7 @@ Le principe est simple en apparence, mais exigeant sur le plan technique : chaqu
 </div>
 
   <div class="post-content"><p>Pendant ma deuxième année à l’IUT de Nice, j’ai participé au projet national de la Rencontre Robotique des IUT GEII. Cet événement regroupe des étudiants de toute la France autour d’un défi commun : concevoir un robot totalement autonome capable de parcourir un terrain rempli d’obstacles, d’un coin à l’autre, sans aucune intervention extérieure. Le projet sur lequel j’ai travaillé s’inscrit dans le cadre du challenge ESCAPEBOT.</p>
-<h2 id="explication-du-projet">Explication Du projet<a hidden class="anchor" aria-hidden="true" href="#explication-du-projet">#</a></h2>
+<h1 id="explication-du-projet">Explication Du projet<a hidden class="anchor" aria-hidden="true" href="#explication-du-projet">#</a></h1>
 <p>Le principe est simple en apparence, mais exigeant sur le plan technique : chaque robot, doit quitter sa zone de départ et rejoindre sa zone d’arrivée située en diagonale, tout en évitant les obstacles de 15 cm de hauteur répartis aléatoirement sur le terrain. Le terrain, d’une surface de 8 m sur 8 m, est conçu pour que les parcours soient équivalents pour tous les robots.</p>
 <p><figure class="align-center ">
     <img loading="lazy" src="photo.jpg#center" width="600px"/> 
@@ -165,7 +188,7 @@ Le principe est simple en apparence, mais exigeant sur le plan technique : chaqu
 
 <em>Terrain</em></p>
 <p>Afin d’aider à la localisation, chaque robot peut s’appuyer sur un maximum de trois balises disposées aux coins et bords du terrain. Les balises doivent respecter des contraintes de taille, de sécurité (notamment pour les émissions lumineuses ou sonores) et d’autonomie en énergie selon leur emplacement. Le départ se fait par un retrait de prise jack, et le robot a un maximum de 90 secondes pour atteindre sa zone. Pour valider son arrivée, il doit s’immobiliser et faire éclater un ballon. Le système de points attribués dépend du comportement du robot (démarrage autonome, arrivée, classement) et incite à concevoir un système fiable, rapide et intelligent. Ce projet m’a permis de mettre en œuvre de nombreuses compétences en électronique, programmation, traitement de capteurs et impression 3d. C’est aussi un projet riche en collaboration, car il requiert coordination et échanges avec mes camarades.</p>
-<h2 id="mes-missions-dans-le-projet">Mes missions dans le projet<a hidden class="anchor" aria-hidden="true" href="#mes-missions-dans-le-projet">#</a></h2>
+<h1 id="mes-missions-dans-le-projet">Mes missions dans le projet<a hidden class="anchor" aria-hidden="true" href="#mes-missions-dans-le-projet">#</a></h1>
 <p>J’ai réalisé l’intégralité des pièces du robot en impression 3D, de la conception à la fabrication. J’ai aussi conçu seul la carte IHM, qui permet à l’utilisateur d’interagir avec le robot. Enfin, j’ai travaillé en binôme avec Mathis sur la carte commande : j’ai réalisé le schéma électronique pendant qu’il s’est chargé du routage du PCB et de la programmation associée. Ces tâches m’ont permis de développer mes compétences techniques en électronique et en conception, tout en collaborant efficacement sur un projet d’envergure.</p>
 <h2 id="carte-commande">Carte commande<a hidden class="anchor" aria-hidden="true" href="#carte-commande">#</a></h2>
 <p>Pour la carte commande, ma mission principale a été de concevoir le schéma électronique en intégrant plusieurs éléments clés : la gestion de la batterie, les encodeurs, les connecteurs pour les moteurs, le jack de démarrage, la mesure de la tension batterie, ainsi que les connecteurs pour les capteurs de ligne. J’ai travaillé à partir de la carte de première année, en l’adaptant aux besoins spécifiques de ce projet. Cela a notamment impliqué la modification du microcontrôleur, en remplaçant le mbed KL25z par un STM32 Nucleo, plus adapté aux contraintes et fonctionnalités attendues. Cette évolution a permis de mieux répondre aux exigences du challenge tout en conservant une base fonctionnelle solide.</p>
@@ -304,6 +327,83 @@ Le principe est simple en apparence, mais exigeant sur le plan technique : chaqu
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    txMsg.id <span style="color:#f92672">=</span> ID_CARTE_IHM; <span style="color:#75715e">// set ID
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
 </span></span></code></pre></div><h2 id="impression-3d">Impression 3d<a hidden class="anchor" aria-hidden="true" href="#impression-3d">#</a></h2>
+<h3 id="tour">Tour<a hidden class="anchor" aria-hidden="true" href="#tour">#</a></h3>
+<p>J’ai conçu une tour permettant de capter la balise au-dessus des obstacles, dans laquelle j’ai également intégré l’IHM. Au sommet, se trouve l&rsquo;emplacement pour le cerveau moteur, positionné à la hauteur maximale autorisée afin d’optimiser l’explosion du ballon à 100 %.</p>
+<model-viewer 
+  src="/models/1.glb" 
+  alt="Modèle 3D"
+  camera-controls 
+  auto-rotate 
+  background-color="#ffffff" 
+  style="width: 100%; height: 500px;">
+</model-viewer>
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<h3 id="face-arriere-du-robot">Face arriere du robot<a hidden class="anchor" aria-hidden="true" href="#face-arriere-du-robot">#</a></h3>
+<p>Voici la face arrière est facilement démontable grâce à sa poignée, ce qui permet d’injecter rapidement des programmes en série sur la carte Nucleo.</p>
+<model-viewer 
+  src="/models/2.glb" 
+  alt="Modèle 3D"
+  camera-controls 
+  auto-rotate 
+  background-color="#ffffff" 
+  style="width: 100%; height: 500px;">
+</model-viewer>
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<h3 id="porte-aiguille">Porte aiguille<a hidden class="anchor" aria-hidden="true" href="#porte-aiguille">#</a></h3>
+<p>Voici le bras, vissé directement au servomoteur, avec une longueur optimisée pour assurer l’explosion du ballon de manière efficace. À son extrémité, une aiguille est fixée à l’aide de colle chaude pour garantir sa tenue lors de l’impact.</p>
+<model-viewer 
+  src="/models/3.glb" 
+  alt="Modèle 3D"
+  camera-controls 
+  auto-rotate 
+  background-color="#ffffff" 
+  style="width: 100%; height: 500px;">
+</model-viewer>
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<h3 id="porte-lidiar">Porte lidiar<a hidden class="anchor" aria-hidden="true" href="#porte-lidiar">#</a></h3>
+<p>Cette partie accueille le LiDAR 360°, positionné de manière à couvrir environ 250° de champ de vision. La seule zone non visible se situe à l’arrière, obstruée par la tour. Le capteur est solidement vissé sur la pièce imprimée en 3D afin de rester parfaitement stable pendant les déplacements du robot.</p>
+<model-viewer 
+  src="/models/4.glb" 
+  alt="Modèle 3D"
+  camera-controls 
+  auto-rotate 
+  background-color="#ffffff" 
+  style="width: 100%; height: 500px;">
+</model-viewer>
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<h3 id="face-du-dessus-droitegauche">Face du dessus (droite,gauche)<a hidden class="anchor" aria-hidden="true" href="#face-du-dessus-droitegauche">#</a></h3>
+<model-viewer 
+  src="/models/5.glb" 
+  alt="Modèle 3D"
+  camera-controls 
+  auto-rotate 
+  background-color="#ffffff" 
+  style="width: 100%; height: 500px;">
+</model-viewer>
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<p>Voici les deux côtés de la face supérieure du robot, solidement fixés à l’aide de vis de 8 mm de diamètre (un peu surdimensionnées). Cette fixation renforçait considérablement la structure et assurait également une excellente stabilité de la tour, qui était ainsi parfaitement maintenue.</p>
+<h1 id="le-projet-finalisé">Le projet finalisé<a hidden class="anchor" aria-hidden="true" href="#le-projet-finalisé">#</a></h1>
+<p>La vidéo de présentation du projet montre seulement 4 blocs sur le terrain, car elle a été réalisée pendant la phase de qualification. Par la suite, le nombre de blocs augmente progressivement, pouvant aller jusqu’à 20 lors des phases avancées.</p>
+<video width="100%" height="auto" controls>
+  <source src="/videos/1.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la vidéo HTML5.
+</video>
+<h1 id="conclusion--un-rapport-humain">Conclusion : Un rapport humain<a hidden class="anchor" aria-hidden="true" href="#conclusion--un-rapport-humain">#</a></h1>
+<p>Au-delà des aspects techniques, la Coupe de Robotique à Cachan a été une véritable aventure humaine. Travailler en équipe dans un contexte aussi stimulant nous a appris à communiquer efficacement, à gérer les imprévus et à collaborer dans un esprit d’entraide. Cette expérience a renforcé notre cohésion de groupe, tout en favorisant la création de liens amicaux avec les étudiants de première année. L’ambiance bienveillante et le partage de compétences entre promotions ont été des éléments clés de la réussite du projet, soulignant l’importance des relations humaines dans un travail collectif.</p>
+<p><img alt="Photo au PMU " loading="lazy" src="/fr/projects/Concours-robot-cachan-V2/3.jpg"></p>
+<p>Merci aux professeurs Jean-Louis Salvat et Christophe Vermalean de nous avoir offert l’opportunité de vivre cette belle aventure et de nous avoir soutenus tout au long du projet.</p>
+<p><img alt="Soutien de JS " loading="lazy" src="/fr/projects/Concours-robot-cachan-V2/4.jpg">
+*Fan de leurs étudiants</p>
 
 
   </div>
@@ -313,18 +413,6 @@ Le principe est simple en apparence, mais exigeant sur le plan technique : chaqu
       <li><a href="http://localhost:1313/fr/tags/projet/">Projet</a></li>
       <li><a href="http://localhost:1313/fr/tags/geii/">GEII</a></li>
     </ul>
-<nav class="paginav">
-  <a class="prev" href="http://localhost:1313/fr/projects/Enceinte/">
-    <span class="title">« Précédent</span>
-    <br>
-    <span>Projet Enceinte</span>
-  </a>
-  <a class="next" href="http://localhost:1313/fr/projects/Concours-robot-cachan-V1/">
-    <span class="title">Suivant »</span>
-    <br>
-    <span>Concours de Robotique Cachan première année</span>
-  </a>
-</nav>
 
 
 <ul class="share-buttons">

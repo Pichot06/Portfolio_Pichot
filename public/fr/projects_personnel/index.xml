@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>🔧 Projets personnel on Alexandre</title>
+    <link>http://localhost:1313/fr/projects_personnel/</link>
+    <description>Recent content in 🔧 Projets personnel on Alexandre</description>
+    <image>
+      <title>Alexandre</title>
+      <url>http://localhost:1313/pichot.jpg</url>
+      <link>http://localhost:1313/pichot.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.3</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/fr/projects_personnel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Création d&#39;un NAS DIY avec Home Assistant intégré</title>
+      <link>http://localhost:1313/fr/projects/monitoring_hass_nas/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/projects/monitoring_hass_nas/</guid>
+      <description>Création d&amp;rsquo;un Nas et d&amp;rsquo;un serveur Home Assistant</description>
+    </item>
+    <item>
+      <title>Concours de Robotique Cachan deuxième</title>
+      <link>http://localhost:1313/fr/projects/Concours-robot-cachan-V2/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/projects/Concours-robot-cachan-V2/</guid>
+      <description>&lt;p&gt;Pendant ma deuxième année à l’IUT de Nice, j’ai participé au projet national de la Rencontre Robotique des IUT GEII. Cet événement regroupe des étudiants de toute la France autour d’un défi commun : concevoir un robot totalement autonome capable de parcourir un terrain rempli d’obstacles, d’un coin à l’autre, sans aucune intervention extérieure. Le projet sur lequel j’ai travaillé s’inscrit dans le cadre du challenge ESCAPEBOT.&lt;/p&gt;
+&lt;h1 id=&#34;explication-du-projet&#34;&gt;Explication Du projet&lt;/h1&gt;
+&lt;p&gt;Le principe est simple en apparence, mais exigeant sur le plan technique : chaque robot, doit quitter sa zone de départ et rejoindre sa zone d’arrivée située en diagonale, tout en évitant les obstacles de 15 cm de hauteur répartis aléatoirement sur le terrain. Le terrain, d’une surface de 8 m sur 8 m, est conçu pour que les parcours soient équivalents pour tous les robots.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Concours de Robotique Cachan première année</title>
+      <link>http://localhost:1313/fr/projects/Concours-robot-cachan-V1/</link>
+      <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/projects/Concours-robot-cachan-V1/</guid>
+      <description>&lt;h2 id=&#34;en-cours&#34;&gt;En cours&lt;/h2&gt;</description>
+    </item>
+  </channel>
+</rss>

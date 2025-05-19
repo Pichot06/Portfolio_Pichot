@@ -22,7 +22,7 @@ keywords: ["projet", "GEII"]
 
 Pendant ma deuxième année à l’IUT de Nice, j’ai participé au projet national de la Rencontre Robotique des IUT GEII. Cet événement regroupe des étudiants de toute la France autour d’un défi commun : concevoir un robot totalement autonome capable de parcourir un terrain rempli d’obstacles, d’un coin à l’autre, sans aucune intervention extérieure. Le projet sur lequel j’ai travaillé s’inscrit dans le cadre du challenge ESCAPEBOT.
 
-## Explication Du projet
+# Explication Du projet
 
 Le principe est simple en apparence, mais exigeant sur le plan technique : chaque robot, doit quitter sa zone de départ et rejoindre sa zone d’arrivée située en diagonale, tout en évitant les obstacles de 15 cm de hauteur répartis aléatoirement sur le terrain. Le terrain, d’une surface de 8 m sur 8 m, est conçu pour que les parcours soient équivalents pour tous les robots.
 
@@ -31,7 +31,7 @@ _Terrain_
 
 Afin d’aider à la localisation, chaque robot peut s’appuyer sur un maximum de trois balises disposées aux coins et bords du terrain. Les balises doivent respecter des contraintes de taille, de sécurité (notamment pour les émissions lumineuses ou sonores) et d’autonomie en énergie selon leur emplacement. Le départ se fait par un retrait de prise jack, et le robot a un maximum de 90 secondes pour atteindre sa zone. Pour valider son arrivée, il doit s’immobiliser et faire éclater un ballon. Le système de points attribués dépend du comportement du robot (démarrage autonome, arrivée, classement) et incite à concevoir un système fiable, rapide et intelligent. Ce projet m’a permis de mettre en œuvre de nombreuses compétences en électronique, programmation, traitement de capteurs et impression 3d. C’est aussi un projet riche en collaboration, car il requiert coordination et échanges avec mes camarades.
 
-## Mes missions dans le projet
+# Mes missions dans le projet
 
 J’ai réalisé l’intégralité des pièces du robot en impression 3D, de la conception à la fabrication. J’ai aussi conçu seul la carte IHM, qui permet à l’utilisateur d’interagir avec le robot. Enfin, j’ai travaillé en binôme avec Mathis sur la carte commande : j’ai réalisé le schéma électronique pendant qu’il s’est chargé du routage du PCB et de la programmation associée. Ces tâches m’ont permis de développer mes compétences techniques en électronique et en conception, tout en collaborant efficacement sur un projet d’envergure.
 
@@ -180,3 +180,53 @@ void send_message_to_commande(void) {
 ```
 
 ## Impression 3d
+
+### Tour
+
+J’ai conçu une tour permettant de capter la balise au-dessus des obstacles, dans laquelle j’ai également intégré l’IHM. Au sommet, se trouve l'emplacement pour le cerveau moteur, positionné à la hauteur maximale autorisée afin d’optimiser l’explosion du ballon à 100 %.
+
+{{< modelviewer src="/models/1.glb" >}}
+
+### Face arriere du robot
+
+Voici la face arrière est facilement démontable grâce à sa poignée, ce qui permet d’injecter rapidement des programmes en série sur la carte Nucleo.
+
+{{< modelviewer src="/models/2.glb" >}}
+
+### Porte aiguille
+
+Voici le bras, vissé directement au servomoteur, avec une longueur optimisée pour assurer l’explosion du ballon de manière efficace. À son extrémité, une aiguille est fixée à l’aide de colle chaude pour garantir sa tenue lors de l’impact.
+
+{{< modelviewer src="/models/3.glb" >}}
+
+### Porte lidiar
+
+Cette partie accueille le LiDAR 360°, positionné de manière à couvrir environ 250° de champ de vision. La seule zone non visible se situe à l’arrière, obstruée par la tour. Le capteur est solidement vissé sur la pièce imprimée en 3D afin de rester parfaitement stable pendant les déplacements du robot.
+
+{{< modelviewer src="/models/4.glb" >}}
+
+### Face du dessus (droite,gauche) 
+
+{{< modelviewer src="/models/5.glb" >}}
+
+Voici les deux côtés de la face supérieure du robot, solidement fixés à l’aide de vis de 8 mm de diamètre (un peu surdimensionnées). Cette fixation renforçait considérablement la structure et assurait également une excellente stabilité de la tour, qui était ainsi parfaitement maintenue.
+
+# Le projet finalisé
+
+La vidéo de présentation du projet montre seulement 4 blocs sur le terrain, car elle a été réalisée pendant la phase de qualification. Par la suite, le nombre de blocs augmente progressivement, pouvant aller jusqu’à 20 lors des phases avancées.
+
+<video width="100%" height="auto" controls>
+  <source src="/videos/1.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la vidéo HTML5.
+</video>
+
+# Conclusion : Un rapport humain
+
+Au-delà des aspects techniques, la Coupe de Robotique à Cachan a été une véritable aventure humaine. Travailler en équipe dans un contexte aussi stimulant nous a appris à communiquer efficacement, à gérer les imprévus et à collaborer dans un esprit d’entraide. Cette expérience a renforcé notre cohésion de groupe, tout en favorisant la création de liens amicaux avec les étudiants de première année. L’ambiance bienveillante et le partage de compétences entre promotions ont été des éléments clés de la réussite du projet, soulignant l’importance des relations humaines dans un travail collectif.
+
+![Photo au PMU ](3.jpg)
+
+Merci aux professeurs Jean-Louis Salvat et Christophe Vermalean de nous avoir offert l’opportunité de vivre cette belle aventure et de nous avoir soutenus tout au long du projet.
+
+![Soutien de JS ](4.jpg)
+\*Fan de leurs étudiants

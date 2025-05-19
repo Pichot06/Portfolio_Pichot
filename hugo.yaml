@@ -29,7 +29,7 @@ languages:
   #   languageName: 🇬🇧
   #   weight: 10
   #   contentDir: content/en
-  #   title: Redwan
+  #   title:
   #   menu:
   #     main:
   #       - identifier: accueil
@@ -81,18 +81,22 @@ languages:
           name: 🙂 À propos
           url: /fr/about/
           weight: 20
-        - identifier: projects
-          name: 🔧 Projets
-          url: /fr/projects/
+        - identifier: projects personnel
+          name: 🔧 Projets personnel
+          url: /fr/projects_personnel/
           weight: 30
+        - identifier: projects Academique
+          name: 🎓 Projets Académique
+          url: /fr/projects_Academique/
+          weight: 40
 
     params:
-      images: ["1739734917588.jpg"]
+      images: ["pichot.jpg"]
       profileMode:
         enabled: true
         title: "Alexandre Pichot" # optional default will be site title
-        subtitle: "Étudiant en troisème année de BUT GEII, je suis à la recherche d'une école d'ingénieur dans les domaines de l'énergie électrique, informatique industrielle ou électronique "
-        imageUrl: "1739734917588.jpg" # optional
+        subtitle: "Étudiant en troisème année de BUT GEII, je suis à la recherche d'une alternace dans les domaines de l'énergie électrique, informatique industrielle ou électronique."
+        imageUrl: "pichot.jpg" # optional
         imageTitle: "Alexandre Pichot" # optional
         imageWidth: 120 # custom size
         imageHeight: 120 # custom size
@@ -108,7 +112,6 @@ languages:
           url: "https://github.com/Pichot06"
         - name: "email"
           url: "mailto:alexandre.pichotx@gmail.com"
-
 
 markup:
   goldmark:
