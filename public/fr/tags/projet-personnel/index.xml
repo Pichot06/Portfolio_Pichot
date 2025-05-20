@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projet Personnel on Alexandre</title>
-    <link>http://localhost:1313/fr/tags/projet-personnel/</link>
+    <link>http://localhost:1313/Portfolio_Pichot/fr/tags/projet-personnel/</link>
     <description>Recent content in Projet Personnel on Alexandre</description>
     <image>
       <title>Alexandre</title>
-      <url>http://localhost:1313/pichot.jpg</url>
-      <link>http://localhost:1313/pichot.jpg</link>
+      <url>http://localhost:1313/Portfolio_Pichot/pichot.jpg</url>
+      <link>http://localhost:1313/Portfolio_Pichot/pichot.jpg</link>
     </image>
     <generator>Hugo -- 0.147.3</generator>
     <language>fr</language>
     <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/fr/tags/projet-personnel/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Portfolio_Pichot/fr/tags/projet-personnel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Création d&#39;un NAS DIY avec Home Assistant intégré</title>
-      <link>http://localhost:1313/fr/projects/monitoring_hass_nas/</link>
+      <link>http://localhost:1313/Portfolio_Pichot/fr/projects/monitoring_hass_nas/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/projects/monitoring_hass_nas/</guid>
+      <guid>http://localhost:1313/Portfolio_Pichot/fr/projects/monitoring_hass_nas/</guid>
       <description>Création d&amp;rsquo;un Nas et d&amp;rsquo;un serveur Home Assistant</description>
     </item>
   </channel>
