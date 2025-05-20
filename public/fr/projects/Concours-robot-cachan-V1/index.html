@@ -7,10 +7,12 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Concours de Robotique Cachan première année | Alexandre</title>
 <meta name="keywords" content="projet, GEII">
-<meta name="description" content="En cours">
+<meta name="description" content="Présentation du concours
+Dans le cadre de ma première année de BUT GEII, j’ai eu l’opportunité de participer à la Rencontre Robotique des IUT GEII, un concours national organisé à Cachan. L’objectif du projet était de concevoir un robot autonome capable de suivre une ligne noire sur fond blanc, tout en accomplissant divers challenges sur un parcours imposé.
+Le robot devait être capable de s’adapter à des courbes, éviter des obstacles, reconnaître des marques spécifiques au sol et atteindre des zones d’arrivée précises. Le concours s’est déroulé sur deux jours, avec 13 épreuves dévoilées le vendredi matin, 13 l’après-midi et 10 supplémentaires le samedi, ce qui exigeait une grande réactivité et une forte capacité d’adaptation.">
 <meta name="author" content="Alexandre Pichot">
 <link rel="canonical" href="http://localhost:1313/fr/projects/Concours-robot-cachan-V1/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.6da9a63d25a9608bca2f7f907a030e887a7dd3c3f3918e4cc113129361414bda.css" integrity="sha256-bammPSWpYIvKL3&#43;QegMOiHp908PzkY5MwRMSk2FBS9o=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.08db1beaa3736ebabaf904260463cbbddd08f184cbb6019f74d95cd1d5d6adac.css" integrity="sha256-CNsb6qNzbrq6&#43;QQmBGPLvd0I8YTLtgGfdNlc0dXWraw=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -129,12 +131,12 @@
     <h1 class="post-title entry-hint-parent">
       Concours de Robotique Cachan première année
     </h1>
-    <div class="post-meta"><span title='2023-06-08 00:00:00 +0000 UTC'>8 juin 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Alexandre Pichot
+    <div class="post-meta"><span title='2023-06-08 00:00:00 +0000 UTC'>8 juin 2023</span>&nbsp;·&nbsp;7 min&nbsp;·&nbsp;Alexandre Pichot
 
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" src="http://localhost:1313/image2-1.jpeg" alt="">
+            <img loading="eager" src="http://localhost:1313/fr/projects/Concours-robot-cachan-V1/3.jpg" alt="">
         
 </figure><div class="toc">
     <details  open>
@@ -144,14 +146,303 @@
 
         <div class="inner"><ul>
                 <li>
-                    <a href="#en-cours" aria-label="En cours">En cours</a>
+                    <a href="#pr%c3%a9sentation-du-concours" aria-label="Présentation du concours">Présentation du concours</a></li>
+                <li>
+                    <a href="#avant-le-d%c3%a9part" aria-label="Avant le départ">Avant le départ</a></li>
+                <li>
+                    <a href="#vendredi-et-samedi" aria-label="Vendredi et Samedi">Vendredi et Samedi</a></li>
+                <li>
+                    <a href="#conclusion--un-rapport-humain" aria-label="Conclusion : un rapport humain">Conclusion : un rapport humain</a>
                 </li>
             </ul>
         </div>
     </details>
 </div>
 
-  <div class="post-content"><h2 id="en-cours">En cours<a hidden class="anchor" aria-hidden="true" href="#en-cours">#</a></h2>
+  <div class="post-content"><h1 id="présentation-du-concours">Présentation du concours<a hidden class="anchor" aria-hidden="true" href="#présentation-du-concours">#</a></h1>
+<p>Dans le cadre de ma première année de BUT GEII, j’ai eu l’opportunité de participer à la Rencontre Robotique des IUT GEII, un concours national organisé à Cachan. L’objectif du projet était de concevoir un robot autonome capable de suivre une ligne noire sur fond blanc, tout en accomplissant divers challenges sur un parcours imposé.</p>
+<p>Le robot devait être capable de s’adapter à des courbes, éviter des obstacles, reconnaître des marques spécifiques au sol et atteindre des zones d’arrivée précises. Le concours s’est déroulé sur deux jours, avec 13 épreuves dévoilées le vendredi matin, 13 l’après-midi et 10 supplémentaires le samedi, ce qui exigeait une grande réactivité et une forte capacité d’adaptation.</p>
+<p><figure class="align-center ">
+    <img loading="lazy" src="9.jpg#center" width="600px"/> 
+</figure>
+
+<em>Terrain</em></p>
+<h1 id="avant-le-départ">Avant le départ<a hidden class="anchor" aria-hidden="true" href="#avant-le-départ">#</a></h1>
+<p>Le projet portait sur la conception d’un robot suiveur de ligne. Nous avions déjà travaillé sur ce type de robot à travers deux projets SAÉ réalisés au semestre 1 et 2, ce qui nous a permis de réutiliser certaines bases. Pour le concours, la structure du robot (châssis, roues, carte de commande et carte batterie) nous a été fournie.</p>
+<p>Nous avons ensuite conçu plusieurs cartes électroniques spécifiques, notamment une carte capteurs, une carte mezzanine et une carte hacheur. L’intégralité du code de suivi de ligne a été développé par notre équipe, en utilisant un algorithme PID pour ajuster la trajectoire du robot avec précision. Bien que nous ayons eu peu de notions sur le PID au départ, nos recherches et nos essais nous ont permis d’obtenir rapidement un fonctionnement fluide et efficace.</p>
+<p>Le code réalisé formait une base stable, sur laquelle nous avons pu nous appuyer pour adapter le comportement du robot en fonction des différents challenges rencontrés lors du concours.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;mbed.h&#34;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;cstdio&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;string.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/////////////////////////////////////
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#define periode 100
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#define VG 0.7
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#define VD 0.68
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#define VMOY 65 </span><span style="color:#75715e">// 60 //62 //65 //68 //70 //75
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e">#define KP 72   </span><span style="color:#75715e">// 60
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e">#define KD 2.5  </span><span style="color:#75715e">// 0.7 //1.5 //2 //2.5 //3
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//_______________________________________________
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//-----LED RGB MBED
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>BusOut <span style="color:#a6e22e">leds</span>(LED1, LED2, LED3);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//-----FIN DE COURSE ET JACK
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>DigitalIn <span style="color:#a6e22e">FDC</span>(PTE21), Jack(PTE20);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//-----TELEMETRE
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//SRF05 Droite(A5, D4);    // trig echo Telemetre droite
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//SRF05 Devant(PTE30, D5); // trig echo Telemetre devant
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//-----BOUTONS
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//DigitalIn bp1(D12);
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//DigitalIn bp2(D13);
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//-----LCD
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Grove_LCD_RGB_Backlight rgbLCD(D14, D15); // SCL SDA LCD
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//-----CAPTEURS
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>AnalogIn <span style="color:#a6e22e">C1X</span>(A1), C2X(A2), C3X(A3), C4X(A4);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//-----MOTEURS
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>PwmOut <span style="color:#a6e22e">motD</span>(D6);
+</span></span><span style="display:flex;"><span>PwmOut <span style="color:#a6e22e">motG</span>(D8);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//-----SENS MOTEURS
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>DigitalOut <span style="color:#a6e22e">sensD</span>(D7);
+</span></span><span style="display:flex;"><span>DigitalOut <span style="color:#a6e22e">sensG</span>(D9);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//-----ENCODEURS MOTEURS
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// 2 signaux moteurD
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>InterruptIn <span style="color:#a6e22e">MotD_A</span>(D2);
+</span></span><span style="display:flex;"><span>InterruptIn <span style="color:#a6e22e">MotD_B</span>(D3);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// 2 signaux moteurG
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>InterruptIn <span style="color:#a6e22e">MotG_A</span>(D11);
+</span></span><span style="display:flex;"><span>InterruptIn <span style="color:#a6e22e">MotG_B</span>(D10);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//-----BATTERIE
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>AnalogIn <span style="color:#a6e22e">Bat</span>(A0);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//____________________________________
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//----VARIABLES GLOBALES
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> etat <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> vg, vd;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> Jackread, FDCread, bp1read, bp2read;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">float</span> Vbat, coeffbat, valbat;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">float</span> trmin;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">float</span> Devantread, Droiteread;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">float</span> C1, C2, C3, C4, P, I, D;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">float</span> Error <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.0</span>, Integrale <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.0</span>, Last_error <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.0</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">float</span> Derivative <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.0</span>, Correction <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.0</span>;
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//----VARIABLES GLOBALES
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> etat <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> vg, vd;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">float</span> Vbat, coeffbat, valbat;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">float</span> trmin;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> compteur <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> compteur2 <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">float</span> consigne <span style="color:#f92672">=</span> <span style="color:#ae81ff">60</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> Jackread, FDCread;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">float</span> C1, C2, C3, C4, P, I, D;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">float</span> Error <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.0</span>, Integrale <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.0</span>, Last_error <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.0</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">float</span> Derivative <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.0</span>, Correction <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.0</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">char</span> tab[<span style="color:#ae81ff">10</span>];
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//----FONCTIONS
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">init</span>();
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">vitesse</span>(<span style="color:#66d9ef">int</span>, <span style="color:#66d9ef">int</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">PID</span>(<span style="color:#66d9ef">void</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">PIDLent</span>(<span style="color:#66d9ef">void</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//-----TIMER/TICKER
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>Timer rac;
+</span></span><span style="display:flex;"><span>Timer timer1;
+</span></span><span style="display:flex;"><span>Timer Time1;
+</span></span><span style="display:flex;"><span>Timer TourneG;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>  init();
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">while</span> (<span style="color:#ae81ff">1</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// rgbLCD.clear();
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// rgbLCD.locate(0, 0);
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// sprintf(tab, &#34;etat = %d &#34;, etat);
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// rgbLCD.print(tab);
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    C1 <span style="color:#f92672">=</span> C1X.read();
+</span></span><span style="display:flex;"><span>    C2 <span style="color:#f92672">=</span> C2X.read();
+</span></span><span style="display:flex;"><span>    C3 <span style="color:#f92672">=</span> C3X.read();
+</span></span><span style="display:flex;"><span>    C4 <span style="color:#f92672">=</span> C4X.read();
+</span></span><span style="display:flex;"><span>    Jackread <span style="color:#f92672">=</span> Jack.read();
+</span></span><span style="display:flex;"><span>    FDCread <span style="color:#f92672">=</span> FDC.read();
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//   printf(&#34;%f et %f\n&#34;,C1,C2);
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">switch</span> (etat) { <span style="color:#75715e">// partie transitions
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">case</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (Jackread <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>        etat <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (FDCread <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>        etat <span style="color:#f92672">=</span> <span style="color:#ae81ff">1000</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (C1 <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0.7</span> <span style="color:#f92672">&amp;&amp;</span> C2 <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0.7</span>)
+</span></span><span style="display:flex;"><span>        etat <span style="color:#f92672">=</span> <span style="color:#ae81ff">500</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">500</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (C1 <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0.7</span> <span style="color:#f92672">&amp;&amp;</span> C2 <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0.7</span><span style="color:#f92672">&amp;&amp;</span> rac.read()<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0.3</span>)
+</span></span><span style="display:flex;"><span>      rac.stop();
+</span></span><span style="display:flex;"><span>      rac.reset();
+</span></span><span style="display:flex;"><span>        etat <span style="color:#f92672">=</span> <span style="color:#ae81ff">510</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">510</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (C3 <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0.7</span><span style="color:#f92672">&amp;&amp;</span> rac.read()<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">0.3</span>)
+</span></span><span style="display:flex;"><span>      etat <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#75715e">// 520
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">520</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (C1 <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">0.7</span> <span style="color:#f92672">&amp;&amp;</span> C2 <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">0.7</span>)
+</span></span><span style="display:flex;"><span>        etat <span style="color:#f92672">=</span> <span style="color:#ae81ff">530</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">530</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      etat <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">1000</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (Jackread <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>        etat <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">switch</span> (etat) { <span style="color:#75715e">// partie état
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">case</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      vitesse(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      PID();
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">500</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>    rac.start();
+</span></span><span style="display:flex;"><span>      PIDLent();
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">510</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>    tourneG
+</span></span><span style="display:flex;"><span>      vitesse(<span style="color:#f92672">-</span><span style="color:#ae81ff">40</span>,<span style="color:#ae81ff">40</span>);
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">520</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      PID();
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">530</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      vitesse(<span style="color:#ae81ff">30</span>,<span style="color:#f92672">-</span><span style="color:#ae81ff">40</span>);
+</span></span><span style="display:flex;"><span>      wait(<span style="color:#ae81ff">1.5</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">1000</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      vitesse(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// printf(&#34;etat : %d\n&#34;, etat);
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">init</span>() {
+</span></span><span style="display:flex;"><span>  printf(<span style="color:#e6db74">&#34;commence !</span><span style="color:#ae81ff">\n\r</span><span style="color:#e6db74">&#34;</span>);
+</span></span><span style="display:flex;"><span>  rgbLCD.setRGB(<span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">139</span>, <span style="color:#ae81ff">0</span>); <span style="color:#75715e">// set the color
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  motD.period_us(periode);
+</span></span><span style="display:flex;"><span>  motG.period_us(periode);
+</span></span><span style="display:flex;"><span>  vitesse(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>  timer1.start();
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">vitesse</span>(<span style="color:#66d9ef">int</span> G, <span style="color:#66d9ef">int</span> D) {
+</span></span><span style="display:flex;"><span>  valbat <span style="color:#f92672">=</span> Bat.read();
+</span></span><span style="display:flex;"><span>  Vbat <span style="color:#f92672">=</span> (valbat <span style="color:#f92672">*</span> <span style="color:#ae81ff">3.3</span> <span style="color:#f92672">*</span> ((<span style="color:#ae81ff">1200.0</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">4700.0</span>) <span style="color:#f92672">/</span> <span style="color:#ae81ff">1200.0</span>) <span style="color:#f92672">+</span> <span style="color:#ae81ff">0.77</span>); <span style="color:#75715e">// calcul
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  coeffbat <span style="color:#f92672">=</span> (<span style="color:#ae81ff">12</span> <span style="color:#f92672">/</span> Vbat);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (D <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">100</span>)
+</span></span><span style="display:flex;"><span>    D <span style="color:#f92672">=</span> <span style="color:#ae81ff">100</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (D <span style="color:#f92672">&lt;</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">100</span>)
+</span></span><span style="display:flex;"><span>    D <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">100</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (D <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>    sensD.write(<span style="color:#ae81ff">1</span>); <span style="color:#75715e">// marche
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    motD.pulsewidth_us((<span style="color:#ae81ff">100</span> <span style="color:#f92672">-</span> D) <span style="color:#f92672">*</span> coeffbat);
+</span></span><span style="display:flex;"><span>  } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>    sensD.write(<span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>    motD.pulsewidth_us((abs(D)) <span style="color:#f92672">*</span> coeffbat);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (G <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>    sensG.write(<span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>    motG.pulsewidth_us(G <span style="color:#f92672">*</span> coeffbat);
+</span></span><span style="display:flex;"><span>  } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>    sensG.write(<span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>    motG.pulsewidth_us((<span style="color:#ae81ff">100</span> <span style="color:#f92672">+</span> G) <span style="color:#f92672">*</span> coeffbat);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">PID</span>(<span style="color:#66d9ef">void</span>) {
+</span></span><span style="display:flex;"><span>  Time1.start();
+</span></span><span style="display:flex;"><span>  C1 <span style="color:#f92672">=</span> C1X.read();
+</span></span><span style="display:flex;"><span>  C2 <span style="color:#f92672">=</span> C2X.read();
+</span></span><span style="display:flex;"><span>  C3 <span style="color:#f92672">=</span> C3X.read();
+</span></span><span style="display:flex;"><span>  C4 <span style="color:#f92672">=</span> C4X.read();
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Proportionnel
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  Error <span style="color:#f92672">=</span> C3 <span style="color:#f92672">-</span> C2; <span style="color:#75715e">// soustration de c3 c2 pour voir l&#39;erreur
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  P <span style="color:#f92672">=</span> Error <span style="color:#f92672">*</span> KP; <span style="color:#75715e">// erreur  (moteur Gauche 70 droite 68) 70 + Error*0.3 et 68 -
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// Intégrale
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  Integrale <span style="color:#f92672">=</span> Integrale <span style="color:#f92672">+</span> Error;
+</span></span><span style="display:flex;"><span>  I <span style="color:#f92672">=</span> Integrale <span style="color:#f92672">*</span> <span style="color:#ae81ff">0.1</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Dérivatif
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  Time1.stop();
+</span></span><span style="display:flex;"><span>  Derivative <span style="color:#f92672">=</span> (Error <span style="color:#f92672">-</span> Last_error) <span style="color:#f92672">/</span> Time1.read();
+</span></span><span style="display:flex;"><span>  Last_error <span style="color:#f92672">=</span> Error;
+</span></span><span style="display:flex;"><span>  D <span style="color:#f92672">=</span> Derivative <span style="color:#f92672">*</span> KD;
+</span></span><span style="display:flex;"><span>  Time1.reset();
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Correction
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  Correction <span style="color:#f92672">=</span> (P <span style="color:#f92672">+</span> D);
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// printf(&#34;%f\n\r&#34;,Error);
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// printf(&#34;P=%.2f   I=%.2f   D=%.2f\n\r&#34;,P,I,D);
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// printf(&#34;ET %.2f\n\r&#34;,Correction);
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  vg <span style="color:#f92672">=</span> VMOY <span style="color:#f92672">+</span> (<span style="color:#66d9ef">int</span>)Correction;
+</span></span><span style="display:flex;"><span>  vd <span style="color:#f92672">=</span> VMOY <span style="color:#f92672">-</span> (<span style="color:#66d9ef">int</span>)Correction;
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// printf(&#34;vitesse %d,%d\n\r&#34;,vd,vg);
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  vitesse(vg, vd);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">PIDLent</span>() {
+</span></span><span style="display:flex;"><span>  Time1.start();
+</span></span><span style="display:flex;"><span>  C1 <span style="color:#f92672">=</span> C1X.read();
+</span></span><span style="display:flex;"><span>  C2 <span style="color:#f92672">=</span> C2X.read();
+</span></span><span style="display:flex;"><span>  C3 <span style="color:#f92672">=</span> C3X.read();
+</span></span><span style="display:flex;"><span>  C4 <span style="color:#f92672">=</span> C4X.read();
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Proportionnel
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  Error <span style="color:#f92672">=</span> C3 <span style="color:#f92672">-</span> C2; <span style="color:#75715e">// soustration de c3 c2 pour voir l&#39;erreur
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  P <span style="color:#f92672">=</span> Error <span style="color:#f92672">*</span> KP; <span style="color:#75715e">// erreur  (moteur Gauche 70 droite 68) 70 + Error*0.3 et 68 -
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// Intégrale
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  Integrale <span style="color:#f92672">=</span> Integrale <span style="color:#f92672">+</span> Error;
+</span></span><span style="display:flex;"><span>  I <span style="color:#f92672">=</span> Integrale <span style="color:#f92672">*</span> <span style="color:#ae81ff">0.1</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Dérivatif
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  Time1.stop();
+</span></span><span style="display:flex;"><span>  Derivative <span style="color:#f92672">=</span> (Error <span style="color:#f92672">-</span> Last_error) <span style="color:#f92672">/</span> Time1.read();
+</span></span><span style="display:flex;"><span>  Last_error <span style="color:#f92672">=</span> Error;
+</span></span><span style="display:flex;"><span>  D <span style="color:#f92672">=</span> Derivative <span style="color:#f92672">*</span> KD;
+</span></span><span style="display:flex;"><span>  Time1.reset();
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Correction
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  Correction <span style="color:#f92672">=</span> (P <span style="color:#f92672">+</span> D);
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// printf(&#34;%f\n\r&#34;,Error);
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// printf(&#34;P=%.2f   I=%.2f   D=%.2f\n\r&#34;,P,I,D);
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// printf(&#34;ET %.2f\n\r&#34;,Correction);
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  vg <span style="color:#f92672">=</span> VMOYLENT <span style="color:#f92672">+</span> (<span style="color:#66d9ef">int</span>)Correction;
+</span></span><span style="display:flex;"><span>  vd <span style="color:#f92672">=</span> VMOYLENT <span style="color:#f92672">-</span> (<span style="color:#66d9ef">int</span>)Correction;
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// printf(&#34;vitesse %d,%d\n\r&#34;,vd,vg);
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  vitesse(vg, vd);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h1 id="vendredi-et-samedi">Vendredi et Samedi<a hidden class="anchor" aria-hidden="true" href="#vendredi-et-samedi">#</a></h1>
+<p>Nous sommes arrivés à Paris le jeudi, la veille du début des épreuves. L&rsquo;hébergement se faisait dans un gymnase, sur des lits de camp.</p>
+<p><figure class="align-center ">
+    <img loading="lazy" src="2.jpg#center" width="600px"/> 
+</figure>
+
+<em>Arrivé au concours</em></p>
+<p>Le vendredi matin, dès 9h, nous avons commencé par l’homologation des robots. Notre équipe de Nice avait apporté quatre robots, tous homologués avec succès. Une fois cette étape validée, nous avons pu accéder aux premières épreuves.Les 13 premiers challenges nous ont été remis, avec un niveau de difficulté assez simple.</p>
+<iframe src="/pdfs/Challenge%20du%20vendredi%20matin.pdf" width="100%" height="600px" style="border:none;">
+  Ce navigateur ne supporte pas les PDF. <a href="/pdfs/Challenge%20du%20vendredi%20matin.pdf">Cliquez ici pour le télécharger.</a>
+</iframe>
+
+<p>Nous avions ensuite trois heures pour en réussir un maximum. Chaque validation se faisait en conditions officielles : il fallait se présenter sur l&rsquo;une des quatre pistes, annoncer le challenge à réaliser, puis le réussir sous le regard attentif des arbitres.</p>
+<p>L&rsquo;après-midi, de nouveaux challenges nous ont été proposés, et l’objectif restait le même : en réussir le plus possible avant le samedi matin. À partir de 19h, les épreuves étaient suspendues, les arbitres ayant terminé leur journée. Nous avons alors tous été dîner, puis nous sommes revenus travailler sur les nouveaux challenges du lendemain.Avec Thomas Gomes, nous avons passé une nuit blanche à préparer huit nouveaux challenges. Tous ont été validés dès l’arrivée du jury le samedi matin.</p>
+<p><figure class="align-center ">
+    <img loading="lazy" src="6.jpg#center" width="600px"/> 
+</figure>
+
+<em>4h48 du matin avec thomas gomes</em></p>
+<p>Ensuite, une nouvelle série de 10 challenges, plus complexes, a été lancée, ainsi que deux épreuves de rapidité. Mon robot a terminé premier sur la première course, et deuxième sur la seconde.</p>
+<p>Au final, l’équipe de Nice a réussi à valider tous les challenges du vendredi matin. En additionnant les points de toutes nos équipes, nous avons décroché la deuxième place du classement général.</p>
+<h1 id="conclusion--un-rapport-humain">Conclusion : un rapport humain<a hidden class="anchor" aria-hidden="true" href="#conclusion--un-rapport-humain">#</a></h1>
+<p>Au-delà des aspects techniques, la Coupe de Robotique de Cachan a été une véritable aventure humaine.
+Cette expérience nous a permis de développer notre esprit d’équipe dans un environnement aussi stimulant qu’exigeant. Nous avons appris à communiquer de manière claire, à faire face aux imprévus, et à avancer ensemble dans un esprit d’entraide. Elle a renforcé notre cohésion de groupe et favorisé la création de liens solides avec les étudiants de première année. L’ambiance bienveillante, ainsi que le partage des compétences entre promotions, ont joué un rôle essentiel dans la réussite du projet, illustrant à quel point les relations humaines sont au cœur du travail collectif.</p>
 
 
   </div>

@@ -1,8 +1,10 @@
 baseURL: https://example.org/
 languageCode: en-us
 title: My New Hugo Site
+
 theme:
   - PaperMod
+
 caches:
   images:
     dir: :cacheDir/images
@@ -10,12 +12,9 @@ caches:
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: true
 
+# Paramètres globaux
 params:
-  displayFullLangName: true
-  mainSections:
-    - projects
   defaultTheme: auto
-  # disableThemeToggle: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -23,54 +22,21 @@ params:
   ShowDate: true
   author: Alexandre Pichot
   images: ["1739734917588.jpg"]
+  displayFullLangName: true
+  mainSections:
+    - projects
+  assets:
+    customCSS:
+      - "css/extended/custom.css"
 
 languages:
-  # en:
-  #   languageName: 🇬🇧
-  #   weight: 10
-  #   contentDir: content/en
-  #   title:
-  #   menu:
-  #     main:
-  #       - identifier: accueil
-  #         name: 🏠 Home
-  #         url: /en/
-  #         weight: 10
-  #       - identifier: about
-  #         name: 🙂 About
-  #         url: /en/about/
-  #         weight: 20
-  #       - identifier: projets
-  #         name: 🔧 Projects
-  #         url: /en/projects/
-  #         weight: 30
-  #   params:
-  #     images: ["1739734917588.jpg"]
-  #     profileMode:
-  #       enabled: true
-  #       title: "Alexandre Pichot" # optional default will be site title
-  #       subtitle: "Third-year student in EEE, I'm looking for an engineering school in the fields of electrical energy or IoT."
-  #       imageUrl: "1739734917588.jpg" # optional
-  #       imageTitle: "Alexandre Pichot" # optional
-  #       imageWidth: 120 # custom size
-  #       imageHeight: 120 # custom size
-  #       buttons:
-  #         - name: Download resume
-  #           url: "/en/CV_Pichot.pdf"
-  #     DateFormat: "January 2, 2006"
-  #     socialIcons: # optional
-  #       - name: "linkedin"
-  #         url: "https://www.linkedin.com/in/alexandre-pichot-a81360233/"
-  #       - name: "github"
-  #         url: "https://github.com/Pichot06"
-  #       - name: "email"
-  #         url: "mailto:alexandre.pichotx@gmail.com"
-
   fr:
     languageName: 🇫🇷
     weight: 20
     title: Alexandre
     contentDir: content/fr
+
+    # Menus en français
     menu:
       main:
         - identifier: accueil
@@ -90,22 +56,23 @@ languages:
           url: /fr/projects_Academique/
           weight: 40
 
+    # Paramètres spécifiques à la langue FR
     params:
+      ShowReadingTime: true
       images: ["pichot.jpg"]
       profileMode:
         enabled: true
-        title: "Alexandre Pichot" # optional default will be site title
-        subtitle: "Étudiant en troisème année de BUT GEII, je suis à la recherche d'une alternace dans les domaines de l'énergie électrique, informatique industrielle ou électronique."
-        imageUrl: "pichot.jpg" # optional
-        imageTitle: "Alexandre Pichot" # optional
-        imageWidth: 120 # custom size
-        imageHeight: 120 # custom size
+        title: "Alexandre Pichot"
+        subtitle: "Étudiant en troisième année de BUT GEII, je suis à la recherche d'une alternance dans les domaines de l'énergie électrique, informatique industrielle ou électronique."
+        imageUrl: "pichot.jpg"
+        imageTitle: "Alexandre Pichot"
+        imageWidth: 120
+        imageHeight: 120
         buttons:
           - name: Télécharger le CV
             url: "/fr/CV_Pichot.pdf"
       DateFormat: "2 January 2006"
-
-      socialIcons: # optional
+      socialIcons:
         - name: "linkedin"
           url: "https://www.linkedin.com/in/alexandre-pichot-a81360233/"
         - name: "github"
@@ -113,6 +80,7 @@ languages:
         - name: "email"
           url: "mailto:alexandre.pichotx@gmail.com"
 
+# Autoriser le rendu HTML dans le markdown
 markup:
   goldmark:
     renderer:

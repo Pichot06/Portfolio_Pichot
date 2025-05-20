@@ -1,0 +1,43 @@
+/* Enveloppe générale des blocs de code */
+pre {
+  overflow: auto;
+  padding: 0;
+  margin: 1em 0;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+/* Bloc de code interne : stylisé, propre */
+pre code {
+  display: block;
+  overflow: auto;
+  max-height: 400px;
+  background-color: #1e1e1e; /* sombre, style VS Code */
+  color: #d4d4d4;
+  font-family: Consolas, monospace;
+  font-size: 0.9em;
+  padding: 1em;
+  border-radius: 8px;
+  line-height: 1.5;
+}
+
+/* Scrollbars uniformes et esthétiques */
+pre code::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+pre code::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+pre code::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Supprime le "coin blanc" en bas à droite */
+pre code::-webkit-scrollbar-corner {
+  background: #1e1e1e;
+}

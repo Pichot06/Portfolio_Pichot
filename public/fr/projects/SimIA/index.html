@@ -11,7 +11,7 @@
 Dans le cadre de ma troisième année à l’IUT de Nice en spécialité Électronique des Systèmes Embarqués (ESE), j’ai participé au projet SIMIA, visant à développer un système embarqué intelligent capable de traiter et d’interpréter des données d’un simulateur de conduite. L’objectif était de mettre en œuvre un modèle d’IA de reconnaissance de panneaux de signalisation à partir du jeu de données GTSRB, composé de plus de 50 000 images réparties en 43 classes. Une attention particulière a été portée au prétraitement des données (normalisation, encodage, gestion des valeurs manquantes) et à l’optimisation des modèles via des techniques de compression, comme la quantification post-entraînement et la quantization-aware training.">
 <meta name="author" content="Alexandre Pichot">
 <link rel="canonical" href="http://localhost:1313/fr/projects/SimIA/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.6da9a63d25a9608bca2f7f907a030e887a7dd3c3f3918e4cc113129361414bda.css" integrity="sha256-bammPSWpYIvKL3&#43;QegMOiHp908PzkY5MwRMSk2FBS9o=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.08db1beaa3736ebabaf904260463cbbddd08f184cbb6019f74d95cd1d5d6adac.css" integrity="sha256-CNsb6qNzbrq6&#43;QQmBGPLvd0I8YTLtgGfdNlc0dXWraw=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -130,18 +130,27 @@ Dans le cadre de ma troisième année à l’IUT de Nice en spécialité Électr
     <h1 class="post-title entry-hint-parent">
       SimIA
     </h1>
-    <div class="post-meta"><span title='2025-03-24 00:00:00 +0000 UTC'>24 mars 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Alexandre Pichot
+    <div class="post-meta"><span title='2025-03-24 00:00:00 +0000 UTC'>24 mars 2025</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Alexandre Pichot
 
 </div>
-  </header> <div class="toc">
+  </header> 
+<figure class="entry-cover">
+            <img loading="eager" src="http://localhost:1313/fr/projects/SimIA/0.png" alt="">
+        
+</figure><div class="toc">
     <details  open>
         <summary accesskey="c" title="(Alt + C)">
             <span class="details">Table des matières</span>
         </summary>
 
-        <div class="inner"><ul>
+        <div class="inner"><ul><ul>
                 <li>
-                    <a href="#explication-du-projet" aria-label="Explication Du projet">Explication Du projet</a>
+                    <a href="#explication-du-projet" aria-label="Explication Du projet">Explication Du projet</a></li></ul>
+                    
+                <li>
+                    <a href="#modele" aria-label="Modele">Modele</a></li>
+                <li>
+                    <a href="#missions" aria-label="Missions">Missions</a>
                 </li>
             </ul>
         </div>
@@ -151,8 +160,102 @@ Dans le cadre de ma troisième année à l’IUT de Nice en spécialité Électr
   <div class="post-content"><h2 id="explication-du-projet">Explication Du projet<a hidden class="anchor" aria-hidden="true" href="#explication-du-projet">#</a></h2>
 <p>Dans le cadre de ma troisième année à l’IUT de Nice en spécialité Électronique des Systèmes Embarqués (ESE), j’ai participé au projet SIMIA, visant à développer un système embarqué intelligent capable de traiter et d’interpréter des données d’un simulateur de conduite. L’objectif était de mettre en œuvre un modèle d’IA de reconnaissance de panneaux de signalisation à partir du jeu de données GTSRB, composé de plus de 50 000 images réparties en 43 classes. Une attention particulière a été portée au prétraitement des données (normalisation, encodage, gestion des valeurs manquantes) et à l’optimisation des modèles via des techniques de compression, comme la quantification post-entraînement et la quantization-aware training.</p>
 <p>Le système cible tournait sur un microcontrôleur ESP32, qui jouait un rôle central en tant que serveur HTTP recevant des images et données du simulateur Unity. Trois modes de fonctionnement étaient proposés : le mode Label, qui prédisait uniquement la classe du panneau ; le mode Managed Speed, qui renvoyait une estimation de la vitesse ; et le mode Speed-Break, où l’ESP32 contrôlait directement l’accélération et le freinage virtuels. Chaque 100 ms, une image PNG RGB 32×32 était transmise à l’ESP32, accompagnée de données de télémétrie (vitesse, odomètre, radar, feu rouge). L’ESP32 devait alors renvoyer une réponse formatée, selon le mode actif.</p>
-<p>Ce projet m’a permis d’approfondir mes compétences en IA embarquée, en communication HTTP, en traitement d’image à faible résolution et en adaptation de modèles à des contraintes matérielles strictes, tout en m’initiant à l’interfaçage temps réel avec un simulateur complexe.</p>
-
+<p><img alt="ESP32 " loading="lazy" src="/fr/projects/SimIA/1.jpg"></p>
+<h1 id="modele">Modele<a hidden class="anchor" aria-hidden="true" href="#modele">#</a></h1>
+<p>Collab
+assez petit pour qu&rsquo;il rentre dans l&rsquo;ESP32   Il dispose de 16 Mo de mémoire flash intégrée et de 8 Mo de PSRAM, offrant suffisamment d&rsquo;espace pour le stockage des programmes. DOnc on devait pas dépassé tant pour notre modele sur collab</p>
+<h1 id="missions">Missions<a hidden class="anchor" aria-hidden="true" href="#missions">#</a></h1>
+<p>Nous avons utilisé Qualia, un framework conçu pour optimiser et déployer des modèles de deep learning sur des dispositifs embarqués. Il permet notamment de convertir un modèle Python en code C fortement compressé, grâce à des techniques de quantification et de gestion mémoire adaptées aux contraintes matérielles.Cela nous a permis d’intégrer notre modèle sur une carte ESP32. Apres cela fait nous avons du connecter le simulateur avec l&rsquo;ESP32</p>
+<p>PHOTO du simu</p>
+<p>A partir d’un squelette fourni, avec pour objectif la reconnaissance de trois panneaux routiers.</p>
+<p><img alt="Panneaux" loading="lazy" src="/fr/projects/SimIA/3.png"></p>
+<p>Une autre mission du projet consistait à décoder un payload de 32 bits envoyé par un simulateur. Ce payload contenait plusieurs informations (vitesse, distance parcourue, présence d’obstacle, détection de feu rouge), que l’ESP32 recevait via une interface HTTP. Après traitement, nous devions renvoyer notre propre payload structuré, également sous la forme d’un entier 32 bits.</p>
+<p>réception des images :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">handleImageRequest</span>(AsyncWebServerRequest <span style="color:#f92672">*</span>request, <span style="color:#66d9ef">uint8_t</span> <span style="color:#f92672">*</span>data, size_t len, size_t index, size_t total) {
+</span></span><span style="display:flex;"><span>  Serial.printf(<span style="color:#e6db74">&#34;Receiving image data: %d/%d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, receivedSize, totalSize);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (index <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>    StartTime <span style="color:#f92672">=</span> micros();
+</span></span><span style="display:flex;"><span>    receivedSize <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    totalSize <span style="color:#f92672">=</span> total;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (waitforinference) {
+</span></span><span style="display:flex;"><span>      Serial.println(<span style="color:#e6db74">&#34;Inference en cours, image ignorée&#34;</span>);
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    memset(image, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">2048</span>);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// Copie des données reçues dans le buffer image global
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  memcpy(<span style="color:#f92672">&amp;</span>image[index], data, len);
+</span></span><span style="display:flex;"><span>  receivedSize <span style="color:#f92672">+=</span> len;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (receivedSize <span style="color:#f92672">&gt;=</span> totalSize) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> rc <span style="color:#f92672">=</span> png.openRAM(image, totalSize, PNGDraw); 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (rc <span style="color:#f92672">==</span> PNG_SUCCESS) {
+</span></span><span style="display:flex;"><span>      rc <span style="color:#f92672">=</span> png.decode(NULL, PNG_FAST_PALETTE);
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (rc <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>        ready <span style="color:#f92672">=</span> true;
+</span></span><span style="display:flex;"><span>        request<span style="color:#f92672">-&gt;</span>send(<span style="color:#ae81ff">200</span>, <span style="color:#e6db74">&#34;text/plain&#34;</span>, <span style="color:#e6db74">&#34;OK&#34;</span>);
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>softmax :  La fonction softmax est utilisée pour transformer les sorties brutes du réseau de neurones en probabilités interprétables. Chaque sortie représente un score associé à une classe (dans ce cas, un type de panneau routier), mais ces scores ne sont pas normalisés. Le softmax applique une exponentielle sur chaque score, puis divise chaque valeur par la somme des exponentielles, ce qui permet d’obtenir des valeurs entre 0 et 1, dont la somme est égale à 1. Cela permet ainsi de déterminer la classe la plus probable en choisissant celle avec la plus haute probabilité. Dans ce projet, cette opération est essentielle pour identifier correctement le panneau détecté par le modèle déployé sur l’ESP32.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">// SOFTMAX
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">float</span> sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">float</span> max_val <span style="color:#f92672">=</span> outputs[<span style="color:#ae81ff">0</span>];
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;</span> FC_UNITS; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>  sum <span style="color:#f92672">+=</span> exp(outputs[i]<span style="color:#f92672">/</span><span style="color:#ae81ff">100</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (max_val <span style="color:#f92672">&lt;</span> outputs[i]) {
+</span></span><span style="display:flex;"><span>    max_val <span style="color:#f92672">=</span> (<span style="color:#66d9ef">float</span>)outputs[i];
+</span></span><span style="display:flex;"><span>    label <span style="color:#f92672">=</span> i;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Fonctionnement :</p>
+<ul>
+<li>
+<p>Réception d’une image via l’endpoint /image (format PNG, 32×32 pixels, RGB)</p>
+</li>
+<li>
+<p>Réception des données via /data : speed, odometer, carinfront, redlight</p>
+</li>
+<li>
+<p>Traitement des données, puis renvoi d’un payload encodé sur 32 bits</p>
+</li>
+</ul>
+<p>Voici le code pour décoder les informations du décodeur</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;Arduino.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdint.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Structure to hold the unpacked car data
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">CarData</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> speed;       <span style="color:#75715e">// Speed in XXX.XX * 100
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">int</span> odometer;    <span style="color:#75715e">// Odometer in XXX.XX * 100
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">bool</span> redlight;   <span style="color:#75715e">// Red light indicator
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">int</span> carInFront; <span style="color:#75715e">// Car in front indicator
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Fonction pour déballer un tableau de 4 octets en données de voiture
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>CarData <span style="color:#a6e22e">unpackCarData</span>(<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">uint8_t</span><span style="color:#f92672">*</span> data) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (data <span style="color:#f92672">==</span> <span style="color:#66d9ef">nullptr</span>) {
+</span></span><span style="display:flex;"><span>        Serial.println(<span style="color:#e6db74">&#34;Error: Null data pointer!&#34;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> {<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, false, false};
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// On combine les 4 octets en un seul entier
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">uint32_t</span> packedData <span style="color:#f92672">=</span> (data[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&lt;&lt;</span> <span style="color:#ae81ff">24</span>) <span style="color:#f92672">|</span> (data[<span style="color:#ae81ff">1</span>] <span style="color:#f92672">&lt;&lt;</span> <span style="color:#ae81ff">16</span>) <span style="color:#f92672">|</span> (data[<span style="color:#ae81ff">2</span>] <span style="color:#f92672">&lt;&lt;</span> <span style="color:#ae81ff">8</span>) <span style="color:#f92672">|</span> data[<span style="color:#ae81ff">3</span>];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Extraction des valeurs
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    CarData carData;
+</span></span><span style="display:flex;"><span>    carData.speed <span style="color:#f92672">=</span> (packedData <span style="color:#f92672">&gt;&gt;</span> <span style="color:#ae81ff">24</span>) <span style="color:#f92672">&amp;</span> <span style="color:#ae81ff">0xFF</span>;   
+</span></span><span style="display:flex;"><span>    carData.odometer <span style="color:#f92672">=</span> (packedData <span style="color:#f92672">&gt;&gt;</span> <span style="color:#ae81ff">8</span>) <span style="color:#f92672">&amp;</span> <span style="color:#ae81ff">0xFFFF</span>;
+</span></span><span style="display:flex;"><span>    carData.carInFront <span style="color:#f92672">=</span> (packedData <span style="color:#f92672">&gt;&gt;</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">&amp;</span> <span style="color:#ae81ff">0x7F</span>;   
+</span></span><span style="display:flex;"><span>    carData.redlight <span style="color:#f92672">=</span> packedData <span style="color:#f92672">&amp;</span> <span style="color:#ae81ff">0x1</span>;    
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> carData;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
 
   </div>
 
