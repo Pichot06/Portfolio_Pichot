@@ -12,6 +12,10 @@ caches:
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: true
 
+relativeURLs: true
+canonifyURLs: true
+uglyURLs: true
+
 # Paramètres globaux
 params:
   defaultTheme: auto
