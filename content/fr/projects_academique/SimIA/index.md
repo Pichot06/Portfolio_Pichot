@@ -31,7 +31,34 @@ Le système cible tournait sur un microcontrôleur ESP32, qui jouait un rôle ce
 
 # Modele 
 
-Collab 
+J'ai crée mon model 
+
+```cpp
+model = Sequential()
+model.add(Input(shape = (32, 32, 3)))
+model.add(Conv2D(16, (5, 5), activation = 'relu'))
+model.add(BatchNormalization())
+model.add(MaxPooling2D(pool_size = (2,2)))
+
+model.add(Conv2D(32, (3, 3), activation = 'relu'))
+model.add(BatchNormalization())
+model.add(MaxPooling2D(pool_size = (2, 2)))
+
+model.add(Conv2D(64, (3, 3), activation = 'relu'))
+model.add(BatchNormalization())
+model.add(MaxPooling2D(pool_size = (2, 2)))
+
+model.add(Dropout(0.5))
+
+model.add(Flatten())
+model.add(Dense(64, activation = 'relu'))
+model.add(Dense(64, activation = 'relu'))
+model.add(Dropout(0.5))
+model.add(Dense(28))
+
+model.add(Activation('softmax')) 
+```
+
 assez petit pour qu'il rentre dans l'ESP32   Il dispose de 16 Mo de mémoire flash intégrée et de 8 Mo de PSRAM, offrant suffisamment d'espace pour le stockage des programmes. DOnc on devait pas dépassé tant pour notre modele sur collab 
 
 # Missions

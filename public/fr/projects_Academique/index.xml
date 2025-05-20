@@ -35,7 +35,10 @@
       <link>http://localhost:1313/fr/projects/Drone/</link>
       <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/fr/projects/Drone/</guid>
-      <description>&lt;h2 id=&#34;en-cours&#34;&gt;En Cours&lt;/h2&gt;</description>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Dans le cadre de ce projet, nous avons développé un algorithme permettant à un drone de suivre une trajectoire prédéfinie de manière fluide et précise. L’objectif principal était de générer une suite de points (waypoints) que le drone puisse suivre tout en respectant diverses contraintes physiques et environnementales, telles que l’accélération, la vitesse maximale ou encore le lissage du mouvement.&lt;/p&gt;
+&lt;h1 id=&#34;trajectoire&#34;&gt;Trajectoire&lt;/h1&gt;
+&lt;p&gt;Pour y parvenir, nous avons étudié deux types de trajectoires : les trajectoires polynomiales de 5ᵉ degré et les trajectoires LSPB (Linear Segment with Parabolic Blends).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Projet Enceinte</title>
