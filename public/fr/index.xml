@@ -25,7 +25,7 @@
       <link>http://localhost:1313/fr/projects/SimIA/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/fr/projects/SimIA/</guid>
-      <description>&lt;h2 id=&#34;explication-du-projet&#34;&gt;Explication Du projet&lt;/h2&gt;
+      <description>&lt;h1 id=&#34;explication-du-projet&#34;&gt;Explication Du projet&lt;/h1&gt;
 &lt;p&gt;Dans le cadre de ma troisième année à l’IUT de Nice en spécialité Électronique des Systèmes Embarqués (ESE), j’ai participé au projet SIMIA, visant à développer un système embarqué intelligent capable de traiter et d’interpréter des données d’un simulateur de conduite. L’objectif était de mettre en œuvre un modèle d’IA de reconnaissance de panneaux de signalisation à partir du jeu de données GTSRB, composé de plus de 50 000 images réparties en 43 classes. Une attention particulière a été portée au prétraitement des données (normalisation, encodage, gestion des valeurs manquantes) et à l’optimisation des modèles via des techniques de compression, comme la quantification post-entraînement et la quantization-aware training.&lt;/p&gt;</description>
     </item>
     <item>
