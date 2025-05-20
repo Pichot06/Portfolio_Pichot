@@ -1,76 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>GEII on Alexandre</title>
-    <link>http://localhost:1313/Portfolio_Pichot/fr/tags/geii/</link>
-    <description>Recent content in GEII on Alexandre</description>
-    <image>
-      <title>Alexandre</title>
-      <url>http://localhost:1313/Portfolio_Pichot/pichot.jpg</url>
-      <link>http://localhost:1313/Portfolio_Pichot/pichot.jpg</link>
-    </image>
-    <generator>Hugo -- 0.147.3</generator>
-    <language>fr</language>
-    <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/Portfolio_Pichot/fr/tags/geii/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Création d&#39;un NAS DIY avec Home Assistant intégré</title>
-      <link>http://localhost:1313/Portfolio_Pichot/fr/projects/monitoring_hass_nas/</link>
-      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Portfolio_Pichot/fr/projects/monitoring_hass_nas/</guid>
-      <description>Création d&amp;rsquo;un Nas et d&amp;rsquo;un serveur Home Assistant</description>
-    </item>
-    <item>
-      <title>SimIA</title>
-      <link>http://localhost:1313/Portfolio_Pichot/fr/projects/SimIA/</link>
-      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Portfolio_Pichot/fr/projects/SimIA/</guid>
-      <description>&lt;h1 id=&#34;explication-du-projet&#34;&gt;Explication Du projet&lt;/h1&gt;
-&lt;p&gt;Dans le cadre de ma troisième année à l’IUT de Nice en spécialité Électronique des Systèmes Embarqués (ESE), j’ai participé au projet SIMIA, visant à développer un système embarqué intelligent capable de traiter et d’interpréter des données d’un simulateur de conduite. L’objectif était de mettre en œuvre un modèle d’IA de reconnaissance de panneaux de signalisation à partir du jeu de données GTSRB, composé de plus de 50 000 images réparties en 43 classes. Une attention particulière a été portée au prétraitement des données (normalisation, encodage, gestion des valeurs manquantes) et à l’optimisation des modèles via des techniques de compression, comme la quantification post-entraînement et la quantization-aware training.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Plant Manager</title>
-      <link>http://localhost:1313/Portfolio_Pichot/fr/projects/Arroseur-de-plante/</link>
-      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Portfolio_Pichot/fr/projects/Arroseur-de-plante/</guid>
-      <description>&lt;h2 id=&#34;contexte&#34;&gt;Contexte&lt;/h2&gt;
-&lt;p&gt;Dans le cadre de notre formation en Génie Électrique et Informatique Industrielle à l’IUT de Nice, spécialité Électronique et Systèmes Embarqués, nous avons développé un système d’arrosage automatique pour plantes.&lt;/p&gt;
-&lt;p&gt;Réalisé en binôme avec Thomas Gomes, ce projet imposait l’utilisation de technologies spécifiques telles qu’un Raspberry Pi Zero 2W, des capteurs analogiques/numériques et divers actionneurs, tout en nous laissant la liberté du sujet. Nous avons ainsi conçu une &amp;ldquo;plante intelligente&amp;rdquo; capable de mesurer l’humidité du sol, la température ambiante et le taux de CO₂, avec déclenchement automatique de l’arrosage selon les données collectées. L’ensemble était supervisé via une interface web.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Drone</title>
-      <link>http://localhost:1313/Portfolio_Pichot/fr/projects/Drone/</link>
-      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Portfolio_Pichot/fr/projects/Drone/</guid>
-      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;Dans le cadre de ce projet, nous avons développé un algorithme permettant à un drone de suivre une trajectoire prédéfinie de manière fluide et précise. L’objectif principal était de générer une suite de points (waypoints) que le drone puisse suivre tout en respectant diverses contraintes physiques et environnementales, telles que l’accélération, la vitesse maximale ou encore le lissage du mouvement.&lt;/p&gt;
-&lt;h1 id=&#34;trajectoire&#34;&gt;Trajectoire&lt;/h1&gt;
-&lt;p&gt;Pour y parvenir, nous avons étudié deux types de trajectoires : les trajectoires polynomiales de 5ᵉ degré et les trajectoires LSPB (Linear Segment with Parabolic Blends).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Projet Enceinte</title>
-      <link>http://localhost:1313/Portfolio_Pichot/fr/projects/Enceinte/</link>
-      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Portfolio_Pichot/fr/projects/Enceinte/</guid>
-      <description>faire un ampli classe D</description>
-    </item>
-    <item>
-      <title>Concours de Robotique Cachan deuxième</title>
-      <link>http://localhost:1313/Portfolio_Pichot/fr/projects/Concours-robot-cachan-V2/</link>
-      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Portfolio_Pichot/fr/projects/Concours-robot-cachan-V2/</guid>
-      <description>&lt;p&gt;Pendant ma deuxième année à l’IUT de Nice, j’ai participé au projet national de la Rencontre Robotique des IUT GEII. Cet événement regroupe des étudiants de toute la France autour d’un défi commun : concevoir un robot totalement autonome capable de parcourir un terrain rempli d’obstacles, d’un coin à l’autre, sans aucune intervention extérieure. Le projet sur lequel j’ai travaillé s’inscrit dans le cadre du challenge ESCAPEBOT.&lt;/p&gt;
-&lt;h1 id=&#34;explication-du-projet&#34;&gt;Explication Du projet&lt;/h1&gt;
-&lt;p&gt;Le principe est simple en apparence, mais exigeant sur le plan technique : chaque robot, doit quitter sa zone de départ et rejoindre sa zone d’arrivée située en diagonale, tout en évitant les obstacles de 15 cm de hauteur répartis aléatoirement sur le terrain. Le terrain, d’une surface de 8 m sur 8 m, est conçu pour que les parcours soient équivalents pour tous les robots.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Concours de Robotique Cachan première année</title>
-      <link>http://localhost:1313/Portfolio_Pichot/fr/projects/Concours-robot-cachan-V1/</link>
-      <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Portfolio_Pichot/fr/projects/Concours-robot-cachan-V1/</guid>
-      <description>&lt;h1 id=&#34;présentation-du-concours&#34;&gt;Présentation du concours&lt;/h1&gt;
-&lt;p&gt;Dans le cadre de ma première année de BUT GEII, j’ai eu l’opportunité de participer à la Rencontre Robotique des IUT GEII, un concours national organisé à Cachan. L’objectif du projet était de concevoir un robot autonome capable de suivre une ligne noire sur fond blanc, tout en accomplissant divers challenges sur un parcours imposé.&lt;/p&gt;
-&lt;p&gt;Le robot devait être capable de s’adapter à des courbes, éviter des obstacles, reconnaître des marques spécifiques au sol et atteindre des zones d’arrivée précises. Le concours s’est déroulé sur deux jours, avec 13 épreuves dévoilées le vendredi matin, 13 l’après-midi et 10 supplémentaires le samedi, ce qui exigeait une grande réactivité et une forte capacité d’adaptation.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>GEII on Alexandre</title><link>https://pichot06.github.io/Portfolio_Pichot/fr/tags/geii/</link><description>Recent content in GEII on Alexandre</description><image><title>Alexandre</title><url>https://pichot06.github.io/Portfolio_Pichot/pichot.jpg</url><link>https://pichot06.github.io/Portfolio_Pichot/pichot.jpg</link></image><generator>Hugo -- 0.147.3</generator><language>fr</language><lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://pichot06.github.io/Portfolio_Pichot/fr/tags/geii/index.xml" rel="self" type="application/rss+xml"/><item><title>Création d'un NAS DIY avec Home Assistant intégré</title><link>https://pichot06.github.io/Portfolio_Pichot/fr/projects/monitoring_hass_nas/</link><pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate><guid>https://pichot06.github.io/Portfolio_Pichot/fr/projects/monitoring_hass_nas/</guid><description>Création d&amp;rsquo;un Nas et d&amp;rsquo;un serveur Home Assistant</description></item><item><title>SimIA</title><link>https://pichot06.github.io/Portfolio_Pichot/fr/projects/SimIA/</link><pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate><guid>https://pichot06.github.io/Portfolio_Pichot/fr/projects/SimIA/</guid><description>&lt;h1 id="explication-du-projet">Explication Du projet&lt;/h1>
+&lt;p>Dans le cadre de ma troisième année à l’IUT de Nice en spécialité Électronique des Systèmes Embarqués (ESE), j’ai participé au projet SIMIA, visant à développer un système embarqué intelligent capable de traiter et d’interpréter des données d’un simulateur de conduite. L’objectif était de mettre en œuvre un modèle d’IA de reconnaissance de panneaux de signalisation à partir du jeu de données GTSRB, composé de plus de 50 000 images réparties en 43 classes. Une attention particulière a été portée au prétraitement des données (normalisation, encodage, gestion des valeurs manquantes) et à l’optimisation des modèles via des techniques de compression, comme la quantification post-entraînement et la quantization-aware training.&lt;/p></description></item><item><title>Plant Manager</title><link>https://pichot06.github.io/Portfolio_Pichot/fr/projects/Arroseur-de-plante/</link><pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate><guid>https://pichot06.github.io/Portfolio_Pichot/fr/projects/Arroseur-de-plante/</guid><description>&lt;h2 id="contexte">Contexte&lt;/h2>
+&lt;p>Dans le cadre de notre formation en Génie Électrique et Informatique Industrielle à l’IUT de Nice, spécialité Électronique et Systèmes Embarqués, nous avons développé un système d’arrosage automatique pour plantes.&lt;/p>
+&lt;p>Réalisé en binôme avec Thomas Gomes, ce projet imposait l’utilisation de technologies spécifiques telles qu’un Raspberry Pi Zero 2W, des capteurs analogiques/numériques et divers actionneurs, tout en nous laissant la liberté du sujet. Nous avons ainsi conçu une &amp;ldquo;plante intelligente&amp;rdquo; capable de mesurer l’humidité du sol, la température ambiante et le taux de CO₂, avec déclenchement automatique de l’arrosage selon les données collectées. L’ensemble était supervisé via une interface web.&lt;/p></description></item><item><title>Drone</title><link>https://pichot06.github.io/Portfolio_Pichot/fr/projects/Drone/</link><pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate><guid>https://pichot06.github.io/Portfolio_Pichot/fr/projects/Drone/</guid><description>&lt;h1 id="introduction">Introduction&lt;/h1>
+&lt;p>Dans le cadre de ce projet, nous avons développé un algorithme permettant à un drone de suivre une trajectoire prédéfinie de manière fluide et précise. L’objectif principal était de générer une suite de points (waypoints) que le drone puisse suivre tout en respectant diverses contraintes physiques et environnementales, telles que l’accélération, la vitesse maximale ou encore le lissage du mouvement.&lt;/p>
+&lt;h1 id="trajectoire">Trajectoire&lt;/h1>
+&lt;p>Pour y parvenir, nous avons étudié deux types de trajectoires : les trajectoires polynomiales de 5ᵉ degré et les trajectoires LSPB (Linear Segment with Parabolic Blends).&lt;/p></description></item><item><title>Projet Enceinte</title><link>https://pichot06.github.io/Portfolio_Pichot/fr/projects/Enceinte/</link><pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate><guid>https://pichot06.github.io/Portfolio_Pichot/fr/projects/Enceinte/</guid><description>faire un ampli classe D</description></item><item><title>Concours de Robotique Cachan deuxième</title><link>https://pichot06.github.io/Portfolio_Pichot/fr/projects/Concours-robot-cachan-V2/</link><pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate><guid>https://pichot06.github.io/Portfolio_Pichot/fr/projects/Concours-robot-cachan-V2/</guid><description>&lt;p>Pendant ma deuxième année à l’IUT de Nice, j’ai participé au projet national de la Rencontre Robotique des IUT GEII. Cet événement regroupe des étudiants de toute la France autour d’un défi commun : concevoir un robot totalement autonome capable de parcourir un terrain rempli d’obstacles, d’un coin à l’autre, sans aucune intervention extérieure. Le projet sur lequel j’ai travaillé s’inscrit dans le cadre du challenge ESCAPEBOT.&lt;/p>
+&lt;h1 id="explication-du-projet">Explication Du projet&lt;/h1>
+&lt;p>Le principe est simple en apparence, mais exigeant sur le plan technique : chaque robot, doit quitter sa zone de départ et rejoindre sa zone d’arrivée située en diagonale, tout en évitant les obstacles de 15 cm de hauteur répartis aléatoirement sur le terrain. Le terrain, d’une surface de 8 m sur 8 m, est conçu pour que les parcours soient équivalents pour tous les robots.&lt;/p></description></item><item><title>Concours de Robotique Cachan première année</title><link>https://pichot06.github.io/Portfolio_Pichot/fr/projects/Concours-robot-cachan-V1/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><guid>https://pichot06.github.io/Portfolio_Pichot/fr/projects/Concours-robot-cachan-V1/</guid><description>&lt;h1 id="présentation-du-concours">Présentation du concours&lt;/h1>
+&lt;p>Dans le cadre de ma première année de BUT GEII, j’ai eu l’opportunité de participer à la Rencontre Robotique des IUT GEII, un concours national organisé à Cachan. L’objectif du projet était de concevoir un robot autonome capable de suivre une ligne noire sur fond blanc, tout en accomplissant divers challenges sur un parcours imposé.&lt;/p>
+&lt;p>Le robot devait être capable de s’adapter à des courbes, éviter des obstacles, reconnaître des marques spécifiques au sol et atteindre des zones d’arrivée précises. Le concours s’est déroulé sur deux jours, avec 13 épreuves dévoilées le vendredi matin, 13 l’après-midi et 10 supplémentaires le samedi, ce qui exigeait une grande réactivité et une forte capacité d’adaptation.&lt;/p></description></item></channel></rss>
