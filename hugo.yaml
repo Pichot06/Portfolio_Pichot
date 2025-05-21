@@ -1,7 +1,10 @@
-baseURL: "https://Pichot06.github.io/Portfolio_Pichot/"
-relativeURLs: true
+baseURL: "https://pichot06.github.io/Portfolio_Pichot/"
+languageCode: "fr-fr"
+defaultContentLanguage: fr
+defaultContentLanguageInSubdir: false
 canonifyURLs: true
-languageCode: en-us
+relativeURLs: true
+
 title: My New Hugo Site
 
 theme:
@@ -11,8 +14,6 @@ caches:
   images:
     dir: :cacheDir/images
 
-defaultContentLanguage: fr
-defaultContentLanguageInSubdir: true
 
 
 
