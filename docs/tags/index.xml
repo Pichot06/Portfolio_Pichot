@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Alexandre</title>
+    <link>https://Pichot06.github.io/Portfolio_Pichot/tags/</link>
+    <description>Recent content in Tags on Alexandre</description>
+    <image>
+      <title>Alexandre</title>
+      <url>https://Pichot06.github.io/Portfolio_Pichot/pichot.jpg</url>
+      <link>https://Pichot06.github.io/Portfolio_Pichot/pichot.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.3</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://Pichot06.github.io/Portfolio_Pichot/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Domotique</title>
+      <link>https://Pichot06.github.io/Portfolio_Pichot/tags/domotique/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://Pichot06.github.io/Portfolio_Pichot/tags/domotique/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GEII</title>
+      <link>https://Pichot06.github.io/Portfolio_Pichot/tags/geii/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://Pichot06.github.io/Portfolio_Pichot/tags/geii/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Home Assistant</title>
+      <link>https://Pichot06.github.io/Portfolio_Pichot/tags/home-assistant/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://Pichot06.github.io/Portfolio_Pichot/tags/home-assistant/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Monitoring</title>
+      <link>https://Pichot06.github.io/Portfolio_Pichot/tags/monitoring/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://Pichot06.github.io/Portfolio_Pichot/tags/monitoring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Projet Personnel</title>
+      <link>https://Pichot06.github.io/Portfolio_Pichot/tags/projet-personnel/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://Pichot06.github.io/Portfolio_Pichot/tags/projet-personnel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Projet</title>
+      <link>https://Pichot06.github.io/Portfolio_Pichot/tags/projet/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://Pichot06.github.io/Portfolio_Pichot/tags/projet/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
