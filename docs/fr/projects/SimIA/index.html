@@ -11,7 +11,7 @@
 Dans le cadre de ma troisième année à l’IUT de Nice en spécialité Électronique des Systèmes Embarqués (ESE), j’ai participé au projet SIMIA, visant à développer un système embarqué intelligent capable de traiter et d’interpréter des données d’un simulateur de conduite. L’objectif était de mettre en œuvre un modèle d’IA de reconnaissance de panneaux de signalisation à partir du jeu de données GTSRB, composé de plus de 50 000 images réparties en 43 classes. Une attention particulière a été portée au prétraitement des données (normalisation, encodage, gestion des valeurs manquantes) et à l’optimisation des modèles via des techniques de compression, comme la quantification post-entraînement et la quantization-aware training.">
 <meta name="author" content="Alexandre Pichot">
 <link rel="canonical" href="https://Pichot06.github.io/Portfolio_Pichot/fr/projects/SimIA/">
-<link crossorigin="anonymous" href="../../../Portfolio_Pichot/assets/css/stylesheet.08db1beaa3736ebabaf904260463cbbddd08f184cbb6019f74d95cd1d5d6adac.css" integrity="sha256-CNsb6qNzbrq6&#43;QQmBGPLvd0I8YTLtgGfdNlc0dXWraw=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="https://Pichot06.github.io/Portfolio_Pichot/assets/css/stylesheet.08db1beaa3736ebabaf904260463cbbddd08f184cbb6019f74d95cd1d5d6adac.css" integrity="sha256-CNsb6qNzbrq6&#43;QQmBGPLvd0I8YTLtgGfdNlc0dXWraw=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://Pichot06.github.io/Portfolio_Pichot/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://Pichot06.github.io/Portfolio_Pichot/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://Pichot06.github.io/Portfolio_Pichot/favicon-32x32.png">
@@ -145,7 +145,7 @@ Dans le cadre de ma troisième année à l’IUT de Nice en spécialité Électr
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://Pichot06.github.io/Portfolio_Pichot/" accesskey="h" title="Alexandre (Alt + H)">Alexandre</a>
+            <a href="https://Pichot06.github.io/Portfolio_Pichot/fr/" accesskey="h" title="Alexandre (Alt + H)">Alexandre</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -197,7 +197,7 @@ Dans le cadre de ma troisième année à l’IUT de Nice en spécialité Électr
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://Pichot06.github.io/Portfolio_Pichot/">Accueil</a>&nbsp;»&nbsp;<a href="https://Pichot06.github.io/Portfolio_Pichot/fr/projects_Academique/">🎓 Projets Académique</a></div>
+    <div class="breadcrumbs"><a href="https://Pichot06.github.io/Portfolio_Pichot/fr/">Accueil</a>&nbsp;»&nbsp;<a href="https://Pichot06.github.io/Portfolio_Pichot/fr/projects_Academique/">🎓 Projets Académique</a></div>
     <h1 class="post-title entry-hint-parent">
       SimIA
     </h1>
@@ -235,7 +235,7 @@ Dans le cadre de ma troisième année à l’IUT de Nice en spécialité Électr
   <div class="post-content"><h1 id="explication-du-projet">Explication Du projet<a hidden class="anchor" aria-hidden="true" href="#explication-du-projet">#</a></h1>
 <p>Dans le cadre de ma troisième année à l’IUT de Nice en spécialité Électronique des Systèmes Embarqués (ESE), j’ai participé au projet SIMIA, visant à développer un système embarqué intelligent capable de traiter et d’interpréter des données d’un simulateur de conduite. L’objectif était de mettre en œuvre un modèle d’IA de reconnaissance de panneaux de signalisation à partir du jeu de données GTSRB, composé de plus de 50 000 images réparties en 43 classes. Une attention particulière a été portée au prétraitement des données (normalisation, encodage, gestion des valeurs manquantes) et à l’optimisation des modèles via des techniques de compression, comme la quantification post-entraînement et la quantization-aware training.</p>
 <p>Le système cible tournait sur un microcontrôleur ESP32, qui jouait un rôle central en tant que serveur HTTP recevant des images et données du simulateur Unity. Trois modes de fonctionnement étaient proposés : le mode Label, qui prédisait uniquement la classe du panneau ; le mode Managed Speed, qui renvoyait une estimation de la vitesse ; et le mode Speed-Break, où l’ESP32 contrôlait directement l’accélération et le freinage virtuels. Chaque 100 ms, une image PNG RGB 32×32 était transmise à l’ESP32, accompagnée de données de télémétrie (vitesse, odomètre, radar, feu rouge). L’ESP32 devait alors renvoyer une réponse formatée, selon le mode actif.</p>
-<p><img alt="ESP32 " loading="lazy" src="../../../Portfolio_Pichot/fr/projects/SimIA/1.jpg"></p>
+<p><img alt="ESP32 " loading="lazy" src="https://Pichot06.github.io/Portfolio_Pichot/fr/projects/SimIA/1.jpg"></p>
 <h1 id="modèle-du-réseau-de-neurones">Modèle du Réseau de Neurones<a hidden class="anchor" aria-hidden="true" href="#modèle-du-réseau-de-neurones">#</a></h1>
 <p>J’ai conçu un modèle aussi compact que possible tout en conservant un niveau de précision satisfaisant (environ 95 %). L’objectif était d’atteindre un bon compromis entre performance et taille mémoire, afin de pouvoir l’embarquer sur une carte à ressources limitées comme l’ESP32.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>model <span style="color:#f92672">=</span> Sequential()
@@ -263,23 +263,23 @@ Dans le cadre de ma troisième année à l’IUT de Nice en spécialité Électr
 </span></span><span style="display:flex;"><span>model<span style="color:#f92672">.</span>add(Activation(<span style="color:#e6db74">&#39;softmax&#39;</span>))
 </span></span></code></pre></div><p>Le modèle ci-dessus comprend trois couches convolutives suivies de normalisation, de sous-échantillonnage (MaxPooling) et de deux couches fully-connected avec dropout pour éviter le surapprentissage. Ce réseau a été spécifiquement conçu pour rester compact, tout en maintenant une bonne capacité d&rsquo;apprentissage.</p>
 <p>L’image suivante montre un aperçu du modèle obtenu, tel qu’il est affiché dans l’interface de visualisation :</p>
-<p><img alt="modele" loading="lazy" src="../../../Portfolio_Pichot/fr/projects/SimIA/4.png"></p>
+<p><img alt="modele" loading="lazy" src="https://Pichot06.github.io/Portfolio_Pichot/fr/projects/SimIA/4.png"></p>
 <p>Ce schéma permet de vérifier la structure du réseau, le nombre de paramètres par couche, ainsi que l’enchaînement des opérations. Il montre que le modèle reste léger en profondeur, mais exploite plusieurs couches convolutives efficaces pour l’extraction des caractéristiques.</p>
 <p>Comme le modèle est destiné à être embarqué dans une carte ESP32, nous devions limiter sa taille mémoire. L’ESP32 dispose de 16 Mo de mémoire flash et 8 Mo de PSRAM, ce qui est suffisant pour des modèles simples, mais impose une contrainte stricte.
 Nous avons donc fixé une taille maximale de modèle à 300 Ko sur Google Colab.</p>
 <p>Pour atteindre une précision suffisante, j’ai ajusté les hyperparamètres (batch size, taux d’apprentissage, structure, etc.) et effectué plusieurs séries d&rsquo;entraînement.
 Après environ 10 époques, le modèle atteint une précision de 93 %, ce qui est excellent pour un réseau aussi compact. J&rsquo;ai continué à faire des époques pour un total de 20 époques pour avoir 97% de précision.</p>
-<p><img alt="epoques" loading="lazy" src="../../../Portfolio_Pichot/fr/projects/SimIA/9.png">
-<img alt="epoques" loading="lazy" src="../../../Portfolio_Pichot/fr/projects/SimIA/10.png"></p>
+<p><img alt="epoques" loading="lazy" src="https://Pichot06.github.io/Portfolio_Pichot/fr/projects/SimIA/9.png">
+<img alt="epoques" loading="lazy" src="https://Pichot06.github.io/Portfolio_Pichot/fr/projects/SimIA/10.png"></p>
 <p>Le graphique ci-dessus montre la progression de l’apprentissage. On constate une convergence rapide et une stabilisation des performances sans surapprentissage notable, signe que le modèle est bien équilibré.</p>
 <p>Enfin, pour évaluer les performances réelles sur l’ensemble de test, j’ai généré la matrice de confusion suivante :</p>
-<p><img alt="confusion" loading="lazy" src="../../../Portfolio_Pichot/fr/projects/SimIA/7.png"></p>
+<p><img alt="confusion" loading="lazy" src="https://Pichot06.github.io/Portfolio_Pichot/fr/projects/SimIA/7.png"></p>
 <p>Elle permet d’analyser les prédictions correctes (diagonale) ainsi que les erreurs commises entre classes. La répartition homogène et le faible taux d&rsquo;erreurs confirment la fiabilité du modèle, même avec un nombre limité de paramètres.</p>
 <h1 id="missions">Missions<a hidden class="anchor" aria-hidden="true" href="#missions">#</a></h1>
 <p>Nous avons utilisé Qualia, un framework conçu pour optimiser et déployer des modèles de deep learning sur des dispositifs embarqués. Il permet notamment de convertir un modèle Python en code C fortement compressé, grâce à des techniques de quantification et de gestion mémoire adaptées aux contraintes matérielles.Cela nous a permis d’intégrer notre modèle sur une carte ESP32. Apres cela fait nous avons du connecter le simulateur avec l&rsquo;ESP32</p>
-<p><img alt="Panneaux" loading="lazy" src="../../../Portfolio_Pichot/fr/projects/SimIA/8.png"></p>
+<p><img alt="Panneaux" loading="lazy" src="https://Pichot06.github.io/Portfolio_Pichot/fr/projects/SimIA/8.png"></p>
 <p>A partir d’un squelette fourni, avec pour objectif la reconnaissance de trois panneaux routiers.</p>
-<p><img alt="Panneaux" loading="lazy" src="../../../Portfolio_Pichot/fr/projects/SimIA/3.png"></p>
+<p><img alt="Panneaux" loading="lazy" src="https://Pichot06.github.io/Portfolio_Pichot/fr/projects/SimIA/3.png"></p>
 <p>Une autre mission du projet consistait à décoder un payload de 32 bits envoyé par un simulateur. Ce payload contenait plusieurs informations (vitesse, distance parcourue, présence d’obstacle, détection de feu rouge), que l’ESP32 recevait via une interface HTTP. Après traitement, nous devions renvoyer notre propre payload structuré, également sous la forme d’un entier 32 bits.</p>
 <p>réception des images :</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">handleImageRequest</span>(AsyncWebServerRequest <span style="color:#f92672">*</span>request, <span style="color:#66d9ef">uint8_t</span> <span style="color:#f92672">*</span>data, size_t len, size_t index, size_t total) {
@@ -372,8 +372,8 @@ Après environ 10 époques, le modèle atteint une précision de 93 %, ce qui es
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://Pichot06.github.io/Portfolio_Pichot/tags/projet/">Projet</a></li>
-      <li><a href="https://Pichot06.github.io/Portfolio_Pichot/tags/geii/">GEII</a></li>
+      <li><a href="https://Pichot06.github.io/Portfolio_Pichot/fr/tags/projet/">Projet</a></li>
+      <li><a href="https://Pichot06.github.io/Portfolio_Pichot/fr/tags/geii/">GEII</a></li>
     </ul>
 
 
@@ -449,7 +449,7 @@ Après environ 10 époques, le modèle atteint une précision de 93 %, ce qui es
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://Pichot06.github.io/Portfolio_Pichot/">Alexandre</a></span> · 
+        <span>&copy; 2025 <a href="https://Pichot06.github.io/Portfolio_Pichot/fr/">Alexandre</a></span> · 
 
     <span>
         Powered by

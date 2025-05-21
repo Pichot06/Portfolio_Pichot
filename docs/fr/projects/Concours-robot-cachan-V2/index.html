@@ -12,7 +12,7 @@ Explication Du projet
 Le principe est simple en apparence, mais exigeant sur le plan technique : chaque robot, doit quitter sa zone de départ et rejoindre sa zone d’arrivée située en diagonale, tout en évitant les obstacles de 15 cm de hauteur répartis aléatoirement sur le terrain. Le terrain, d’une surface de 8 m sur 8 m, est conçu pour que les parcours soient équivalents pour tous les robots.">
 <meta name="author" content="Matthis Villet, Tallal Bouzidi, Alexandre Pichot">
 <link rel="canonical" href="https://Pichot06.github.io/Portfolio_Pichot/fr/projects/Concours-robot-cachan-V2/">
-<link crossorigin="anonymous" href="../../../Portfolio_Pichot/assets/css/stylesheet.08db1beaa3736ebabaf904260463cbbddd08f184cbb6019f74d95cd1d5d6adac.css" integrity="sha256-CNsb6qNzbrq6&#43;QQmBGPLvd0I8YTLtgGfdNlc0dXWraw=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="https://Pichot06.github.io/Portfolio_Pichot/assets/css/stylesheet.08db1beaa3736ebabaf904260463cbbddd08f184cbb6019f74d95cd1d5d6adac.css" integrity="sha256-CNsb6qNzbrq6&#43;QQmBGPLvd0I8YTLtgGfdNlc0dXWraw=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://Pichot06.github.io/Portfolio_Pichot/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://Pichot06.github.io/Portfolio_Pichot/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://Pichot06.github.io/Portfolio_Pichot/favicon-32x32.png">
@@ -142,7 +142,7 @@ Le principe est simple en apparence, mais exigeant sur le plan technique : chaqu
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://Pichot06.github.io/Portfolio_Pichot/" accesskey="h" title="Alexandre (Alt + H)">Alexandre</a>
+            <a href="https://Pichot06.github.io/Portfolio_Pichot/fr/" accesskey="h" title="Alexandre (Alt + H)">Alexandre</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -194,7 +194,7 @@ Le principe est simple en apparence, mais exigeant sur le plan technique : chaqu
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://Pichot06.github.io/Portfolio_Pichot/">Accueil</a></div>
+    <div class="breadcrumbs"><a href="https://Pichot06.github.io/Portfolio_Pichot/fr/">Accueil</a></div>
     <h1 class="post-title entry-hint-parent">
       Concours de Robotique Cachan deuxième
     </h1>
@@ -264,7 +264,7 @@ Le principe est simple en apparence, mais exigeant sur le plan technique : chaqu
 <p>J’ai réalisé l’intégralité des pièces du robot en impression 3D, de la conception à la fabrication. J’ai aussi conçu seul la carte IHM, qui permet à l’utilisateur d’interagir avec le robot. Enfin, j’ai travaillé en binôme avec Mathis sur la carte commande : j’ai réalisé le schéma électronique pendant qu’il s’est chargé du routage du PCB et de la programmation associée. Ces tâches m’ont permis de développer mes compétences techniques en électronique et en conception, tout en collaborant efficacement sur un projet d’envergure.</p>
 <h2 id="carte-commande">Carte commande<a hidden class="anchor" aria-hidden="true" href="#carte-commande">#</a></h2>
 <p>Pour la carte commande, ma mission principale a été de concevoir le schéma électronique en intégrant plusieurs éléments clés : la gestion de la batterie, les encodeurs, les connecteurs pour les moteurs, le jack de démarrage, la mesure de la tension batterie, ainsi que les connecteurs pour les capteurs de ligne. J’ai travaillé à partir de la carte de première année, en l’adaptant aux besoins spécifiques de ce projet. Cela a notamment impliqué la modification du microcontrôleur, en remplaçant le mbed KL25z par un STM32 Nucleo, plus adapté aux contraintes et fonctionnalités attendues. Cette évolution a permis de mieux répondre aux exigences du challenge tout en conservant une base fonctionnelle solide.</p>
-<p><img alt="Schématique Carte Commande " loading="lazy" src="../../../Portfolio_Pichot/fr/projects/Concours-robot-cachan-V2/command_sch.png"></p>
+<p><img alt="Schématique Carte Commande " loading="lazy" src="https://Pichot06.github.io/Portfolio_Pichot/fr/projects/Concours-robot-cachan-V2/command_sch.png"></p>
 <h2 id="carte-ihm">Carte IHM<a hidden class="anchor" aria-hidden="true" href="#carte-ihm">#</a></h2>
 <p>J’ai conçu une carte IHM pour permettre à l’utilisateur de communiquer avec le robot. Ma mission principale a été d’intégrer un servomoteur MG995, utilisé pour éclater un ballon à la fin du parcours, commandé par un signal PWM. J’ai également installé trois LEDs et trois boutons.</p>
 <p>J’ai aussi intégré un écran LCD TFT ST7735 de 1,8 pouce, avec une résolution de 128 x 160 pixels, connecté au microcontrôleur Nucleo F303k8 via SPI. Pour le rétroéclairage, j’ai configuré le contrôle PWM en mode direct. J’ai programmé l’écran avec une bibliothèque mbed spécifique, permettant l’affichage de texte, la gestion de la luminosité et le dessin de formes géométriques.</p>
@@ -402,7 +402,7 @@ Le principe est simple en apparence, mais exigeant sur le plan technique : chaqu
 <h3 id="tour">Tour<a hidden class="anchor" aria-hidden="true" href="#tour">#</a></h3>
 <p>J’ai conçu une tour permettant de capter la balise au-dessus des obstacles, dans laquelle j’ai également intégré l’IHM. Au sommet, se trouve l&rsquo;emplacement pour le cerveau moteur, positionné à la hauteur maximale autorisée afin d’optimiser l’explosion du ballon à 100 %.</p>
 <model-viewer 
-  src="../../../models/1.glb" 
+  src="https://Pichot06.github.io/Portfolio_Pichot/models/1.glb" 
   alt="Modèle 3D"
   camera-controls 
   auto-rotate 
@@ -415,7 +415,7 @@ Le principe est simple en apparence, mais exigeant sur le plan technique : chaqu
 <h3 id="face-arriere-du-robot">Face arriere du robot<a hidden class="anchor" aria-hidden="true" href="#face-arriere-du-robot">#</a></h3>
 <p>Voici la face arrière est facilement démontable grâce à sa poignée, ce qui permet d’injecter rapidement des programmes en série sur la carte Nucleo.</p>
 <model-viewer 
-  src="../../../models/2.glb" 
+  src="https://Pichot06.github.io/Portfolio_Pichot/models/2.glb" 
   alt="Modèle 3D"
   camera-controls 
   auto-rotate 
@@ -428,7 +428,7 @@ Le principe est simple en apparence, mais exigeant sur le plan technique : chaqu
 <h3 id="porte-aiguille">Porte aiguille<a hidden class="anchor" aria-hidden="true" href="#porte-aiguille">#</a></h3>
 <p>Voici le bras, vissé directement au servomoteur, avec une longueur optimisée pour assurer l’explosion du ballon de manière efficace. À son extrémité, une aiguille est fixée à l’aide de colle chaude pour garantir sa tenue lors de l’impact.</p>
 <model-viewer 
-  src="../../../models/3.glb" 
+  src="https://Pichot06.github.io/Portfolio_Pichot/models/3.glb" 
   alt="Modèle 3D"
   camera-controls 
   auto-rotate 
@@ -441,7 +441,7 @@ Le principe est simple en apparence, mais exigeant sur le plan technique : chaqu
 <h3 id="porte-lidiar">Porte lidiar<a hidden class="anchor" aria-hidden="true" href="#porte-lidiar">#</a></h3>
 <p>Cette partie accueille le LiDAR 360°, positionné de manière à couvrir environ 250° de champ de vision. La seule zone non visible se situe à l’arrière, obstruée par la tour. Le capteur est solidement vissé sur la pièce imprimée en 3D afin de rester parfaitement stable pendant les déplacements du robot.</p>
 <model-viewer 
-  src="../../../models/4.glb" 
+  src="https://Pichot06.github.io/Portfolio_Pichot/models/4.glb" 
   alt="Modèle 3D"
   camera-controls 
   auto-rotate 
@@ -453,7 +453,7 @@ Le principe est simple en apparence, mais exigeant sur le plan technique : chaqu
 
 <h3 id="face-du-dessus-droitegauche">Face du dessus (droite,gauche)<a hidden class="anchor" aria-hidden="true" href="#face-du-dessus-droitegauche">#</a></h3>
 <model-viewer 
-  src="../../../models/5.glb" 
+  src="https://Pichot06.github.io/Portfolio_Pichot/models/5.glb" 
   alt="Modèle 3D"
   camera-controls 
   auto-rotate 
@@ -467,14 +467,14 @@ Le principe est simple en apparence, mais exigeant sur le plan technique : chaqu
 <h1 id="le-projet-finalisé">Le projet finalisé<a hidden class="anchor" aria-hidden="true" href="#le-projet-finalisé">#</a></h1>
 <p>La vidéo de présentation du projet montre seulement 4 blocs sur le terrain, car elle a été réalisée pendant la phase de qualification. Par la suite, le nombre de blocs augmente progressivement, pouvant aller jusqu’à 20 lors des phases avancées.</p>
 <video width="100%" height="auto" controls>
-  <source src="../../../videos/1.mp4" type="video/mp4">
+  <source src="https://Pichot06.github.io/Portfolio_Pichot/videos/1.mp4" type="video/mp4">
   Votre navigateur ne supporte pas la vidéo HTML5.
 </video>
 <h1 id="conclusion--un-rapport-humain">Conclusion : Un rapport humain<a hidden class="anchor" aria-hidden="true" href="#conclusion--un-rapport-humain">#</a></h1>
 <p>Au-delà des aspects techniques, la Coupe de Robotique à Cachan a été une véritable aventure humaine. Travailler en équipe dans un contexte aussi stimulant nous a appris à communiquer efficacement, à gérer les imprévus et à collaborer dans un esprit d’entraide. Cette expérience a renforcé notre cohésion de groupe, tout en favorisant la création de liens amicaux avec les étudiants de première année. L’ambiance bienveillante et le partage de compétences entre promotions ont été des éléments clés de la réussite du projet, soulignant l’importance des relations humaines dans un travail collectif.</p>
-<p><img alt="Photo au PMU " loading="lazy" src="../../../Portfolio_Pichot/fr/projects/Concours-robot-cachan-V2/3.jpg"></p>
+<p><img alt="Photo au PMU " loading="lazy" src="https://Pichot06.github.io/Portfolio_Pichot/fr/projects/Concours-robot-cachan-V2/3.jpg"></p>
 <p>Merci aux professeurs Jean-Louis Salvat et Christophe Vermalean de nous avoir offert l’opportunité de vivre cette belle aventure et de nous avoir soutenus tout au long du projet.</p>
-<p><img alt="Soutien de JS " loading="lazy" src="../../../Portfolio_Pichot/fr/projects/Concours-robot-cachan-V2/4.jpg">
+<p><img alt="Soutien de JS " loading="lazy" src="https://Pichot06.github.io/Portfolio_Pichot/fr/projects/Concours-robot-cachan-V2/4.jpg">
 *Fan de leurs étudiants</p>
 
 
@@ -482,8 +482,8 @@ Le principe est simple en apparence, mais exigeant sur le plan technique : chaqu
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://Pichot06.github.io/Portfolio_Pichot/tags/projet/">Projet</a></li>
-      <li><a href="https://Pichot06.github.io/Portfolio_Pichot/tags/geii/">GEII</a></li>
+      <li><a href="https://Pichot06.github.io/Portfolio_Pichot/fr/tags/projet/">Projet</a></li>
+      <li><a href="https://Pichot06.github.io/Portfolio_Pichot/fr/tags/geii/">GEII</a></li>
     </ul>
 
 
@@ -559,7 +559,7 @@ Le principe est simple en apparence, mais exigeant sur le plan technique : chaqu
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://Pichot06.github.io/Portfolio_Pichot/">Alexandre</a></span> · 
+        <span>&copy; 2025 <a href="https://Pichot06.github.io/Portfolio_Pichot/fr/">Alexandre</a></span> · 
 
     <span>
         Powered by
