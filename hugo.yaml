@@ -1,9 +1,9 @@
 baseURL: "https://Pichot06.github.io/Portfolio_Pichot/"
-languageCode: "fr-fr"
-defaultContentLanguage: fr
-defaultContentLanguageInSubdir: true
+relativeURLs: true
 canonifyURLs: true
-relativeURLs: false
+languageCode: en-us
+title: My New Hugo Site
+
 
 title: My New Hugo Site
 
