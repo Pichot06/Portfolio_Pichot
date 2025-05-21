@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Domotique on Alexandre</title>
-    <link>https://tonnom.github.io/portfolio_pichot/fr/tags/domotique/</link>
+    <link>https://Pichot06.github.io/Portfolio_Pichot/fr/tags/domotique/</link>
     <description>Recent content in Domotique on Alexandre</description>
     <image>
       <title>Alexandre</title>
-      <url>https://tonnom.github.io/portfolio_pichot/pichot.jpg</url>
-      <link>https://tonnom.github.io/portfolio_pichot/pichot.jpg</link>
+      <url>https://Pichot06.github.io/Portfolio_Pichot/pichot.jpg</url>
+      <link>https://Pichot06.github.io/Portfolio_Pichot/pichot.jpg</link>
     </image>
     <generator>Hugo -- 0.147.3</generator>
     <language>fr</language>
     <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://tonnom.github.io/portfolio_pichot/fr/tags/domotique/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://Pichot06.github.io/Portfolio_Pichot/fr/tags/domotique/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Création d&#39;un NAS DIY avec Home Assistant intégré</title>
-      <link>https://tonnom.github.io/portfolio_pichot/fr/projects/monitoring_hass_nas/</link>
+      <link>https://Pichot06.github.io/Portfolio_Pichot/fr/projects/monitoring_hass_nas/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://tonnom.github.io/portfolio_pichot/fr/projects/monitoring_hass_nas/</guid>
+      <guid>https://Pichot06.github.io/Portfolio_Pichot/fr/projects/monitoring_hass_nas/</guid>
       <description>Création d&amp;rsquo;un Nas et d&amp;rsquo;un serveur Home Assistant</description>
     </item>
   </channel>

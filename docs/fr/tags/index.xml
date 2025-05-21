@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Alexandre</title>
-    <link>https://tonnom.github.io/portfolio_pichot/fr/tags/</link>
+    <link>https://Pichot06.github.io/Portfolio_Pichot/fr/tags/</link>
     <description>Recent content in Tags on Alexandre</description>
     <image>
       <title>Alexandre</title>
-      <url>https://tonnom.github.io/portfolio_pichot/pichot.jpg</url>
-      <link>https://tonnom.github.io/portfolio_pichot/pichot.jpg</link>
+      <url>https://Pichot06.github.io/Portfolio_Pichot/pichot.jpg</url>
+      <link>https://Pichot06.github.io/Portfolio_Pichot/pichot.jpg</link>
     </image>
     <generator>Hugo -- 0.147.3</generator>
     <language>fr</language>
     <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://tonnom.github.io/portfolio_pichot/fr/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://Pichot06.github.io/Portfolio_Pichot/fr/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Domotique</title>
-      <link>https://tonnom.github.io/portfolio_pichot/fr/tags/domotique/</link>
+      <link>https://Pichot06.github.io/Portfolio_Pichot/fr/tags/domotique/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://tonnom.github.io/portfolio_pichot/fr/tags/domotique/</guid>
+      <guid>https://Pichot06.github.io/Portfolio_Pichot/fr/tags/domotique/</guid>
       <description></description>
     </item>
     <item>
       <title>GEII</title>
-      <link>https://tonnom.github.io/portfolio_pichot/fr/tags/geii/</link>
+      <link>https://Pichot06.github.io/Portfolio_Pichot/fr/tags/geii/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://tonnom.github.io/portfolio_pichot/fr/tags/geii/</guid>
+      <guid>https://Pichot06.github.io/Portfolio_Pichot/fr/tags/geii/</guid>
       <description></description>
     </item>
     <item>
       <title>Home Assistant</title>
-      <link>https://tonnom.github.io/portfolio_pichot/fr/tags/home-assistant/</link>
+      <link>https://Pichot06.github.io/Portfolio_Pichot/fr/tags/home-assistant/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://tonnom.github.io/portfolio_pichot/fr/tags/home-assistant/</guid>
+      <guid>https://Pichot06.github.io/Portfolio_Pichot/fr/tags/home-assistant/</guid>
       <description></description>
     </item>
     <item>
       <title>Monitoring</title>
-      <link>https://tonnom.github.io/portfolio_pichot/fr/tags/monitoring/</link>
+      <link>https://Pichot06.github.io/Portfolio_Pichot/fr/tags/monitoring/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://tonnom.github.io/portfolio_pichot/fr/tags/monitoring/</guid>
+      <guid>https://Pichot06.github.io/Portfolio_Pichot/fr/tags/monitoring/</guid>
       <description></description>
     </item>
     <item>
       <title>Projet Personnel</title>
-      <link>https://tonnom.github.io/portfolio_pichot/fr/tags/projet-personnel/</link>
+      <link>https://Pichot06.github.io/Portfolio_Pichot/fr/tags/projet-personnel/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://tonnom.github.io/portfolio_pichot/fr/tags/projet-personnel/</guid>
+      <guid>https://Pichot06.github.io/Portfolio_Pichot/fr/tags/projet-personnel/</guid>
       <description></description>
     </item>
     <item>
       <title>Projet</title>
-      <link>https://tonnom.github.io/portfolio_pichot/fr/tags/projet/</link>
+      <link>https://Pichot06.github.io/Portfolio_Pichot/fr/tags/projet/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://tonnom.github.io/portfolio_pichot/fr/tags/projet/</guid>
+      <guid>https://Pichot06.github.io/Portfolio_Pichot/fr/tags/projet/</guid>
       <description></description>
     </item>
   </channel>
