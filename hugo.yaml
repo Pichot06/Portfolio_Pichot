@@ -29,13 +29,6 @@ params:
     customCSS:
       - "css/extended/custom.css"
 
-languages:
-  fr:
-    languageName: 🇫🇷
-    weight: 20
-    title: Alexandre
-    contentDir: content/fr
-
     # Menus en français
     menu:
       main:
