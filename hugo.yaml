@@ -20,7 +20,6 @@ params:
   ShowDate: true
   author: Alexandre Pichot
   images: ["1739734917588.jpg"]
-  displayFullLangName: true
   mainSections:
     - projects
   assets:
@@ -32,7 +31,7 @@ params:
       main:
         - identifier: accueil
           name: 🏠 Accueil
-          url: 
+          url: /
           weight: 10
         - identifier: about
           name: 🙂 À propos

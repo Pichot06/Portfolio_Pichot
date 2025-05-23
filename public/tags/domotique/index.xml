@@ -15,9 +15,9 @@
     <atom:link href="https://pichot06.github.io/Portfolio_Pichot/tags/domotique/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Création d&#39;un NAS DIY avec Home Assistant intégré</title>
-      <link>https://pichot06.github.io/Portfolio_Pichot/fr/projects/monitoring_hass_nas/</link>
+      <link>https://pichot06.github.io/Portfolio_Pichot/projects/monitoring_hass_nas/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://pichot06.github.io/Portfolio_Pichot/fr/projects/monitoring_hass_nas/</guid>
+      <guid>https://pichot06.github.io/Portfolio_Pichot/projects/monitoring_hass_nas/</guid>
       <description>Création d&amp;rsquo;un Nas et d&amp;rsquo;un serveur Home Assistant</description>
     </item>
   </channel>
