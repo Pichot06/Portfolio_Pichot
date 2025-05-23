@@ -1,5 +1,5 @@
 baseURL: "https://pichot06.github.io/Portfolio_Pichot/"
-title: Accueil
+title: Acceuil
 
 theme:
   - PaperMod
@@ -8,6 +8,8 @@ caches:
   images:
     dir: :cacheDir/images
 
+
+# Paramètres globaux
 params:
   defaultTheme: auto
   ShowReadingTime: true
@@ -19,52 +21,54 @@ params:
   images: ["1739734917588.jpg"]
   mainSections:
     - projects
+  assets:
+    customCSS:
+      - "css/extended/custom.css"
 
-  profileMode:
-    enabled: true
-    title: "Alexandre Pichot"
-    subtitle: "Étudiant en troisième année de BUT GEII, je suis à la recherche d'une alternance dans les domaines de l'énergie électrique, informatique industrielle ou électronique."
-    imageUrl: "pichot.jpg"
-    imageTitle: "Alexandre Pichot"
-    imageWidth: 120
-    imageHeight: 120
-    buttons:
-      - name: Télécharger le CV
-        url: "/CV_Pichot.pdf"
+    # Menus en français
+    menu:
+      main:
+        - identifier: accueil
+          name: 🏠 Accueil
+          url: "/"
+          weight: 10
+        - identifier: about
+          name: 🙂 À propos
+          url: /about/
+          weight: 20
+        - identifier: projects personnel
+          name: 🔧 Projets personnel
+          url: /projects_personnel/
+          weight: 30
+        - identifier: projects Academique
+          name: 🎓 Projets Académique
+          url: /projects_Academique/
+          weight: 40
 
-  DateFormat: "2 January 2006"
+    params:
+      ShowReadingTime: true
+      images: ["pichot.jpg"]
+      profileMode:
+        enabled: true
+        title: "Alexandre Pichot"
+        subtitle: "Étudiant en troisième année de BUT GEII, je suis à la recherche d'une alternance dans les domaines de l'énergie électrique, informatique industrielle ou électronique."
+        imageUrl: "pichot.jpg"
+        imageTitle: "Alexandre Pichot"
+        imageWidth: 120
+        imageHeight: 120
+        buttons:
+          - name: Télécharger le CV
+            url: "/CV_Pichot.pdf"
+      DateFormat: "2 January 2006"
+      socialIcons:
+        - name: "linkedin"
+          url: "https://www.linkedin.com/in/alexandre-pichot-a81360233/"
+        - name: "github"
+          url: "https://github.com/Pichot06"
+        - name: "email"
+          url: "mailto:alexandre.pichotx@gmail.com"
 
-  socialIcons:
-    - name: "linkedin"
-      url: "https://www.linkedin.com/in/alexandre-pichot-a81360233/"
-    - name: "github"
-      url: "https://github.com/Pichot06"
-    - name: "email"
-      url: "mailto:alexandre.pichotx@gmail.com"
-
-menu:
-  main:
-    - identifier: accueil
-      name: 🏠 Accueil
-      url: "/"
-      weight: 10
-    - identifier: about
-      name: 🙂 À propos
-      url: /about/
-      weight: 20
-    - identifier: projects_personnel
-      name: 🔧 Projets personnel
-      url: /projects_personnel/
-      weight: 30
-    - identifier: projects_academique
-      name: 🎓 Projets Académiques
-      url: /projects_Academique/
-      weight: 40
-
-assets:
-  customCSS:
-    - "css/extended/custom.css"
-
+# Autoriser le rendu HTML dans le markdown
 markup:
   goldmark:
     renderer:
