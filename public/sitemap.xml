@@ -2,62 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/projects_personnel/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/projects_personnel/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/projects/monitoring_hass_nas/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/projects/monitoring_hass_nas/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/tags/domotique/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/tags/domotique/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/tags/geii/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/tags/geii/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/tags/home-assistant/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/tags/home-assistant/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/tags/monitoring/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/tags/monitoring/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/tags/projet-personnel/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/tags/projet-personnel/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/tags/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/tags/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/projects_Academique/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/projects_Academique/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/tags/projet/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/tags/projet/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/projects/SimIA/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/projects/SimIA/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/projects/Arroseur-de-plante/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/projects/Arroseur-de-plante/</loc>
     <lastmod>2025-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/projects/Drone/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/projects/Drone/</loc>
     <lastmod>2025-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/fr/projects/Enceinte/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/fr/projects/Enceinte/</loc>
     <lastmod>2024-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/projects/Concours-robot-cachan-V2/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/projects/Concours-robot-cachan-V2/</loc>
     <lastmod>2024-08-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/about/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/about/</loc>
     <lastmod>2024-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/projects/Concours-robot-cachan-V1/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/projects/Concours-robot-cachan-V1/</loc>
     <lastmod>2023-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/categories/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/categories/</loc>
   </url><url>
-    <loc>https://pichot06.github.io/Portfolio_Pichot/portfolio/</loc>
+    <loc>http://localhost:1313/Portfolio_Pichot/portfolio/</loc>
   </url>
 </urlset>

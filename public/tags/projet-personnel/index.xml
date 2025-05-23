@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Projet Personnel on Acceuil</title>
-    <link>https://pichot06.github.io/Portfolio_Pichot/tags/projet-personnel/</link>
-    <description>Recent content in Projet Personnel on Acceuil</description>
+    <title>Projet Personnel on Accueil</title>
+    <link>http://localhost:1313/Portfolio_Pichot/tags/projet-personnel/</link>
+    <description>Recent content in Projet Personnel on Accueil</description>
     <image>
-      <title>Acceuil</title>
-      <url>https://pichot06.github.io/Portfolio_Pichot/1739734917588.jpg</url>
-      <link>https://pichot06.github.io/Portfolio_Pichot/1739734917588.jpg</link>
+      <title>Accueil</title>
+      <url>http://localhost:1313/Portfolio_Pichot/1739734917588.jpg</url>
+      <link>http://localhost:1313/Portfolio_Pichot/1739734917588.jpg</link>
     </image>
     <generator>Hugo -- 0.147.3</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://pichot06.github.io/Portfolio_Pichot/tags/projet-personnel/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Portfolio_Pichot/tags/projet-personnel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Création d&#39;un NAS DIY avec Home Assistant intégré</title>
-      <link>https://pichot06.github.io/Portfolio_Pichot/projects/monitoring_hass_nas/</link>
+      <link>http://localhost:1313/Portfolio_Pichot/projects/monitoring_hass_nas/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://pichot06.github.io/Portfolio_Pichot/projects/monitoring_hass_nas/</guid>
+      <guid>http://localhost:1313/Portfolio_Pichot/projects/monitoring_hass_nas/</guid>
       <description>Création d&amp;rsquo;un Nas et d&amp;rsquo;un serveur Home Assistant</description>
     </item>
   </channel>
