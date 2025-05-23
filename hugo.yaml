@@ -1,6 +1,6 @@
-baseURL: "https://pichot06.github.io/Portfolio_Pichot/fr/"
+baseURL: "https://pichot06.github.io/Portfolio_Pichot/"
 languageCode: en-us
-title: My New Hugo Site
+title: Acceuil
 
 theme:
   - PaperMod
@@ -9,8 +9,6 @@ caches:
   images:
     dir: :cacheDir/images
 
-defaultContentLanguage: fr
-defaultContentLanguageInSubdir: false
 
 # Paramètres globaux
 params:
@@ -34,19 +32,19 @@ params:
       main:
         - identifier: accueil
           name: 🏠 Accueil
-          url: /fr/
+          url: 
           weight: 10
         - identifier: about
           name: 🙂 À propos
-          url: /fr/about/
+          url: /about/
           weight: 20
         - identifier: projects personnel
           name: 🔧 Projets personnel
-          url: /fr/projects_personnel/
+          url: /projects_personnel/
           weight: 30
         - identifier: projects Academique
           name: 🎓 Projets Académique
-          url: /fr/projects_Academique/
+          url: /projects_Academique/
           weight: 40
 
     # Paramètres spécifiques à la langue FR
@@ -63,7 +61,7 @@ params:
         imageHeight: 120
         buttons:
           - name: Télécharger le CV
-            url: "/fr/CV_Pichot.pdf"
+            url: "/CV_Pichot.pdf"
       DateFormat: "2 January 2006"
       socialIcons:
         - name: "linkedin"
