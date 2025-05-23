@@ -1,4 +1,4 @@
-baseURL: "https://pichot06.github.io/Portfolio_Pichot/"
+baseURL: "https://pichot06.github.io/Portfolio_Pichot/fr/"
 languageCode: en-us
 title: My New Hugo Site
 
@@ -10,7 +10,7 @@ caches:
     dir: :cacheDir/images
 
 defaultContentLanguage: fr
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 
 # Paramètres globaux
 params:
