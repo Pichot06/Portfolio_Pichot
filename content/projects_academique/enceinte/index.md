@@ -3,7 +3,7 @@ title: "Projet Enceinte"
 date: 2024-08-24
 url: "/fr/projects/Enceinte/"
 category: projects
-summary: faire un ampli classe D
+summary: faire un amplificateur de classe D
 description:
 cover:
   image: 1.jpg

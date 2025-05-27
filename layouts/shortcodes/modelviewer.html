@@ -1,10 +1,14 @@
 <model-viewer 
   src="{{ .Get "src" }}" 
-  alt="Modèle 3D"
+  alt="{{ .Get "alt" | default "Modèle 3D" }}"
   camera-controls 
   auto-rotate 
-  background-color="#ffffff" 
-  style="width: 100%; height: 500px;">
+  autoplay 
+  interaction-prompt="none"
+  background-color="#ffffff"
+  ar 
+  ar-modes="webxr scene-viewer quick-look"
+  style="width: 100%; height: 500px; border-radius: 8px; border: 1px solid #e5e7eb;">
 </model-viewer>
 
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>

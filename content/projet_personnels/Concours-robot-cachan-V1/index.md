@@ -1,5 +1,5 @@
 ---
-title: "Concours de Robotique Cachan première année"
+title: "Concours de Robotique Cachan 2k23"
 date: 2023-06-08
 url: "/projects/Concours-robot-cachan-V1/"
 category: projects
@@ -290,7 +290,7 @@ void PIDLent() {
 
 # Vendredi et Samedi
 
-Nous sommes arrivés à Paris le jeudi, la veille du début des épreuves. L'hébergement se faisait dans un gymnase, sur des lits de camp.
+Nous sommes arrivées à Paris le jeudi, la veille du début des épreuves. L'hébergement se faisait dans un gymnase, sur des lits de camp.
 
 {{< figure src="2.jpg" align="center" width="600px">}}
 _Arrivé au concours_

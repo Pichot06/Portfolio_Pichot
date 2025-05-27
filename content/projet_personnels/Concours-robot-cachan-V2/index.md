@@ -1,5 +1,5 @@
 ---
-title: "Concours de Robotique Cachan deuxième"
+title: "Concours de Robotique Cachan 2k24"
 date: 2024-08-08
 url: "/projects/Concours-robot-cachan-V2/"
 category: projects
@@ -185,29 +185,29 @@ void send_message_to_commande(void) {
 
 J’ai conçu une tour permettant de capter la balise au-dessus des obstacles, dans laquelle j’ai également intégré l’IHM. Au sommet, se trouve l'emplacement pour le cerveau moteur, positionné à la hauteur maximale autorisée afin d’optimiser l’explosion du ballon à 100 %.
 
-{{< modelviewer src="/models/1.glb" >}}
+{{< modelviewer src="/Portfolio_Pichot/models/1.glb" alt="Robot autonome en 3D" >}}
 
 ### Face arriere du robot
 
 Voici la face arrière est facilement démontable grâce à sa poignée, ce qui permet d’injecter rapidement des programmes en série sur la carte Nucleo.
 
-{{< modelviewer src="/models/2.glb" >}}
+{{< modelviewer src="/Portfolio_Pichot/models/2.glb" >}}
 
 ### Porte aiguille
 
 Voici le bras, vissé directement au servomoteur, avec une longueur optimisée pour assurer l’explosion du ballon de manière efficace. À son extrémité, une aiguille est fixée à l’aide de colle chaude pour garantir sa tenue lors de l’impact.
 
-{{< modelviewer src="/models/3.glb" >}}
+{{< modelviewer src="/Portfolio_Pichot/models/3.glb" >}}
 
 ### Porte lidiar
 
 Cette partie accueille le LiDAR 360°, positionné de manière à couvrir environ 250° de champ de vision. La seule zone non visible se situe à l’arrière, obstruée par la tour. Le capteur est solidement vissé sur la pièce imprimée en 3D afin de rester parfaitement stable pendant les déplacements du robot.
 
-{{< modelviewer src="/models/4.glb" >}}
+{{< modelviewer src="/Portfolio_Pichot/models/4.glb" >}}
 
 ### Face du dessus (droite,gauche) 
 
-{{< modelviewer src="/models/5.glb" >}}
+{{< modelviewer src="/Portfolio_Pichot/models/5.glb" >}}
 
 Voici les deux côtés de la face supérieure du robot, solidement fixés à l’aide de vis de 8 mm de diamètre (un peu surdimensionnées). Cette fixation renforçait considérablement la structure et assurait également une excellente stabilité de la tour, qui était ainsi parfaitement maintenue.
 
@@ -215,10 +215,12 @@ Voici les deux côtés de la face supérieure du robot, solidement fixés à l�
 
 La vidéo de présentation du projet montre seulement 4 blocs sur le terrain, car elle a été réalisée pendant la phase de qualification. Par la suite, le nombre de blocs augmente progressivement, pouvant aller jusqu’à 20 lors des phases avancées.
 
-<video width="100%" height="auto" controls>
-  <source src="/videos/1.mp4" type="video/mp4">
-  Votre navigateur ne supporte pas la vidéo HTML5.
-</video>
+<div style="text-align: center;">
+  <video width="80%" height="auto" controls>
+    <source src="/Portfolio_Pichot/videos/1.mp4" type="video/mp4">
+    Votre navigateur ne supporte pas la vidéo
+  </video>
+</div>
 
 # Conclusion : Un rapport humain
 
