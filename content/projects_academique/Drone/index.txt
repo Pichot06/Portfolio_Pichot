@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Drone"
 date: 2025-02-24
 url: "/projects/Drone/"
@@ -36,3 +36,4 @@ Transitions fluides : grâce à la combinaison de phases linéaires et paraboliq
 
 Grande flexibilité : elles s’adaptent facilement à différentes contraintes de temps, de vitesse ou d’accélération, ce qui les rend adaptées à une large gamme d'applications robotiques.
 
+-->

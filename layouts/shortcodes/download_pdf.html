@@ -1,6 +1,6 @@
 <div class="download-container">
-  <a href="/pdfs/{{ .Get "file" }}" download class="download-btn">
-     {{ .Get "label" | default "Télécharger le PDF" }}
+  <a href="{{ "pdfs/" | relURL }}{{ .Get "file" }}" download class="download-btn">
+    {{ .Get "label" | default "📄 Télécharger le PDF" }}
   </a>
 </div>
 

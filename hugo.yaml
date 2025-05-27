@@ -25,7 +25,7 @@ params:
     imageHeight: 120
     buttons:
       - name: Télécharger le CV
-        url: "/CV_Pichot.pdf"
+        url: "/Portfolio_Pichot/CV_Pichot.pdf"
   DateFormat: "2 January 2006"
   socialIcons:
     - name: "linkedin"
@@ -49,9 +49,9 @@ menu:
       name: 🙂 À propos
       url: /about/
       weight: 20
-    - identifier: projects personnel
-      name: 🔧 Projets personnel
-      url: /projects_personnel/
+    - identifier: projects personnels
+      name: 🔧 Projets personnels
+      url: /projects_personnels/
       weight: 30
     - identifier: projects Academique
       name: 🎓 Projets Académique

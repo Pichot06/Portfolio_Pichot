@@ -32,6 +32,6 @@ Le projet a donné lieu à un rapport détaillé.
 
 ## Document
 
-{{< download_pdf file="rapport_plante.pdf" label="📄 Télécharger mon CV" >}}
+{{< download_pdf file="rapport_plante.pdf" label="📄 Télécharger le PDF" >}}
 
-{{< pdf_embed file="rapport_plante.pdf" >}}
+{{< pdf file="rapport_plante.pdf" >}}

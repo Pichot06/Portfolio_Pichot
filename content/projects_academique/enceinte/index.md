@@ -23,3 +23,6 @@ Dans le cadre de ma deuxième année de BUT GEII à l’IUT de Nice, j’ai con�
 
 ## Document
 
+{{< download_pdf file="rapport_son.pdf" label="📄 Télécharger le PDF" >}}
+
+{{< pdf file="rapport_son.pdf" >}}

@@ -1,0 +1,8 @@
+<iframe 
+  src="{{ "pdfs/" | relURL }}{{ .Get "file" }}" 
+  width="100%" 
+  height="700px" 
+  style="border:none;">
+  Ce navigateur ne supporte pas les PDF. 
+  <a href="{{ "pdfs/" | relURL }}{{ .Get "file" }}">Cliquez ici pour le télécharger.</a>
+</iframe>

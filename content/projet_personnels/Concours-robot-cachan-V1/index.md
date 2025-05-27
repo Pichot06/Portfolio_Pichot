@@ -297,7 +297,7 @@ _Arrivé au concours_
 
 Le vendredi matin, dès 9h, nous avons commencé par l’homologation des robots. Notre équipe de Nice avait apporté quatre robots, tous homologués avec succès. Une fois cette étape validée, nous avons pu accéder aux premières épreuves.Les 13 premiers challenges nous ont été remis, avec un niveau de difficulté assez simple. 
 
-{{< pdf_embed file="Challenge du vendredi matin.pdf" >}}
+{{< pdf file="Challenge du vendredi matin.pdf" >}}
 
 Nous avions ensuite trois heures pour en réussir un maximum. Chaque validation se faisait en conditions officielles : il fallait se présenter sur l'une des quatre pistes, annoncer le challenge à réaliser, puis le réussir sous le regard attentif des arbitres.
 
