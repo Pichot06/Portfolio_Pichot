@@ -22,13 +22,13 @@ keywords:
 
 # Home Assistant, un indispensable de la domotique ?
 
-Depuis quelques années, Home Assistant s'est réellement imposé parmi les environnements domotiques. Son efficacité, sa compatibilité et son énorme communauté la propulsé devant d'autres solutions open source comme Jeedom.
+Depuis quelques années, Home Assistant s'est réellement imposé parmi les environnements domotiques. Son efficacité, sa compatibilité et son énorme communauté la propulsé devant.
 
 Ayant essayé Home Assistant il y a quelques mois maintenant, je me suis rendu compte que l'intégralité de mon installation domotique était compatible, mais également que de nouveaux appareils pouvaient y être intégrés. Il me restait plus qu'à configurer une solution propre et durable au sein de Home Assistant.
 
 # Technologie utulisé
 
-J'ai intallé umbrel-OS sur ma raspberry pi 5 avec un hat PCIe to 2-CH M.2 qui peux aqueir 2 SSD. Sur la rp 5 j'ai mit une clée zigbee car mes équipements communiques en zigbee
+J’ai installé Umbrel OS sur ma Raspberry Pi 5, équipée d’un HAT PCIe vers 2 ports M.2 pouvant accueillir deux SSD. J’y ai également connecté une clé Zigbee, car mes équipements communiquent via ce protocole.
 
 ![HAT rp 5](1.jpg)
 
@@ -49,7 +49,8 @@ J’ai installé Home Assistant via Umbrel OS. Cependant, comparé à mon ancien
 
 ### Dashboard
 
-J'ai crée mon propre Dashboard sur Home Assistant
+J’ai conçu mon propre dashboard sur Home Assistant.
+
 ![Dashboard domotique](3.png)
 
 ## Immich

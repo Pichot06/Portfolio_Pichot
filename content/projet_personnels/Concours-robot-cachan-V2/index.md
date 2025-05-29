@@ -22,7 +22,7 @@ keywords: ["projet", "GEII"]
 
 Pendant ma deuxième année à l’IUT de Nice, j’ai participé au projet national de la Rencontre Robotique des IUT GEII. Cet événement regroupe des étudiants de toute la France autour d’un défi commun : concevoir un robot totalement autonome capable de parcourir un terrain rempli d’obstacles, d’un coin à l’autre, sans aucune intervention extérieure. Le projet sur lequel j’ai travaillé s’inscrit dans le cadre du challenge ESCAPEBOT.
 
-# Explication Du projet
+# Explication du projet
 
 Le principe est simple en apparence, mais exigeant sur le plan technique : chaque robot, doit quitter sa zone de départ et rejoindre sa zone d’arrivée située en diagonale, tout en évitant les obstacles de 15 cm de hauteur répartis aléatoirement sur le terrain. Le terrain, d’une surface de 8 m sur 8 m, est conçu pour que les parcours soient équivalents pour tous les robots.
 
@@ -31,7 +31,7 @@ _Terrain_
 
 Afin d’aider à la localisation, chaque robot peut s’appuyer sur un maximum de trois balises disposées aux coins et bords du terrain. Les balises doivent respecter des contraintes de taille, de sécurité (notamment pour les émissions lumineuses ou sonores) et d’autonomie en énergie selon leur emplacement. Le départ se fait par un retrait de prise jack, et le robot a un maximum de 90 secondes pour atteindre sa zone. Pour valider son arrivée, il doit s’immobiliser et faire éclater un ballon. Le système de points attribués dépend du comportement du robot (démarrage autonome, arrivée, classement) et incite à concevoir un système fiable, rapide et intelligent. Ce projet m’a permis de mettre en œuvre de nombreuses compétences en électronique, programmation, traitement de capteurs et impression 3d. C’est aussi un projet riche en collaboration, car il requiert coordination et échanges avec mes camarades.
 
-# Mes missions dans le projet
+# Mes missions
 
 J’ai réalisé l’intégralité des pièces du robot en impression 3D, de la conception à la fabrication. J’ai aussi conçu seul la carte IHM, qui permet à l’utilisateur d’interagir avec le robot. Enfin, j’ai travaillé en binôme avec Mathis sur la carte commande : j’ai réalisé le schéma électronique pendant qu’il s’est chargé du routage du PCB et de la programmation associée. Ces tâches m’ont permis de développer mes compétences techniques en électronique et en conception, tout en collaborant efficacement sur un projet d’envergure.
 
@@ -49,9 +49,10 @@ J’ai aussi intégré un écran LCD TFT ST7735 de 1,8 pouce, avec une résoluti
 
 Enfin, j’ai implémenté l’affichage d’images au format RGB565 après conversion avec un script Python, tout en respectant la limite mémoire de la carte. La communication avec le robot se fait via le bus CAN à l’adresse 0x103.
 
-{{< figure src="IHM_sch.png" align="center" width="600px">}}
+![Schématique IHM](ihm_sch.png)
 _Schématique carte IHM_
-{{< figure src="IHM_pcb.png" align="center" width="600px">}}
+
+![PCB IHM](ihm_pcb.png)
 _PCB carte IHM_
 
 Code Carte IHM
@@ -199,13 +200,13 @@ Voici le bras, vissé directement au servomoteur, avec une longueur optimisée p
 
 {{< modelviewer src="/Portfolio_Pichot/models/3.glb" >}}
 
-### Porte lidiar
+### Porte lidar
 
 Cette partie accueille le LiDAR 360°, positionné de manière à couvrir environ 250° de champ de vision. La seule zone non visible se situe à l’arrière, obstruée par la tour. Le capteur est solidement vissé sur la pièce imprimée en 3D afin de rester parfaitement stable pendant les déplacements du robot.
 
 {{< modelviewer src="/Portfolio_Pichot/models/4.glb" >}}
 
-### Face du dessus (droite,gauche) 
+### Face du dessus (droite,gauche)
 
 {{< modelviewer src="/Portfolio_Pichot/models/5.glb" >}}
 

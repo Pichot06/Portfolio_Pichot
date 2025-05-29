@@ -1,5 +1,5 @@
 ---
-title: "SimIA"
+title: "SimAI 32"
 date: 2025-03-24
 url: "/projects/SimIA/"
 category: projects
@@ -186,6 +186,7 @@ CarData unpackCarData(const uint8_t* data) {
     return carData;
 }
 ```
+
 # Conclusion
 
 Le projet SimIA m’a permis de développer un modèle de reconnaissance de panneaux optimisé pour un microcontrôleur ESP32, alliant intelligence artificielle et contraintes embarquées. J’ai découvert la problématique spécifique de l’intégration de modèles IA dans des microcontrôleurs aux ressources limitées. Cette expérience a renforcé mes compétences en deep learning, traitement d’images et communication entre simulateur et système embarqué. Je tiens à remercier Hugo Meleiro et M. Pegatoquet pour avoir organisé cette SAE, qui a grandement enrichi mon apprentissage.

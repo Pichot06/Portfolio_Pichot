@@ -10,11 +10,11 @@ date: 2024-07-09
 
 ### 👋 Qui suis-je ?
 
-Je m’appelle Alexandre Pichot, diplômé du DUT GEII à l’IUT de Nice, passionné de domotique, robotique et nouvelles technologies. Mon objectif est simple : concevoir des solutions intelligentes pour rendre notre quotidien plus sûr, plus confortable et plus durable.
+Je m’appelle Alexandre Pichot, diplômé du BUT GEII à l’IUT de Nice, passionné de domotique, robotique et nouvelles technologies. Mon objectif est simple : concevoir des solutions intelligentes pour rendre notre quotidien plus sûr, plus confortable et plus durable.
 
 ### 🏫 Mon parcours : IUT GEII à Nice
 
-J’ai intégré l’IUT GEII à Nice, une formation d’excellence qui m’a permis d'acquérir des bases solides en :
+J’ai intégré l’IUT GEII à Nice, une formation qui m’a permis d'acquérir des bases solides en :
 
 - Électronique
 - Automatique
@@ -24,7 +24,6 @@ J’ai intégré l’IUT GEII à Nice, une formation d’excellence qui m’a pe
 Ce cadre dynamique et exigeant m’a permis de travailler sur de nombreux projets concrets et de découvrir la rigueur du travail en équipe.
 
 ### 🤖 Mon moteur au quotidien
-
 
 Depuis longtemps, j’ai une passion pour le bricolage électronique : que ce soit en réparant des objets ou en bidouillant des projets à base de microcontrôleurs, j’aime comprendre, démonter et améliorer les systèmes qui m’entourent.
 
