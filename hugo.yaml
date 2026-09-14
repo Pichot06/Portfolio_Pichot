@@ -18,7 +18,7 @@ params:
   profileMode:
     enabled: true
     title: "Alexandre Pichot"
-    subtitle: "Étudiant en école d'ingénieur, je cherche un stage de 3 mois débutant le 26 avril en électronique ou en informatique industrielle."
+    subtitle: "Étudiant en école d'ingénieur à l'INSA hauts-de-france, je cherche un stage de 3 mois débutant le 26 avril en électronique ou en informatique industrielle."
     imageUrl: "pichot.jpg"
     imageTitle: "Alexandre Pichot"
     imageWidth: 120
