@@ -1,5 +1,65 @@
 baseURL: "https://pichot06.github.io/Portfolio_Pichot/"
 title: Alexandre
+defaultContentLanguage: fr
+defaultContentLanguageInSubdir: false
+
+languages:
+  fr:
+    label: Français
+    locale: fr-FR
+    weight: 1
+    menu:
+      main:
+        - identifier: accueil
+          name: Accueil
+          url: "/"
+          weight: 10
+        - identifier: about
+          name: À propos
+          url: /about/
+          weight: 20
+        - identifier: projects-personnels
+          name: Projets personnels
+          url: /projects_personnels/
+          weight: 30
+        - identifier: projects-academique
+          name: Projets académiques
+          url: /projects_academique/
+          weight: 40
+  en:
+    label: English
+    locale: en-US
+    weight: 2
+    params:
+      profileMode:
+        enabled: true
+        title: "Alexandre Pichot"
+        subtitle: "Engineering student at INSA Hauts-de-France, seeking a three-month internship starting on April 26 in electronics or industrial computing."
+        imageUrl: "pichot.jpg"
+        imageTitle: "Alexandre Pichot"
+        imageWidth: 120
+        imageHeight: 120
+        buttons:
+          - name: Download my resume
+            url: "/Portfolio_Pichot/CV_Pichot.pdf"
+    menu:
+      main:
+        - identifier: home
+          name: Home
+          url: "/"
+          weight: 10
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 20
+        - identifier: personal-projects
+          name: Personal projects
+          url: /personal-projects/
+          weight: 30
+        - identifier: academic-projects
+          name: Academic projects
+          url: /academic-projects/
+          weight: 40
 
 theme:
   - PaperMod
@@ -38,25 +98,6 @@ params:
 assets:
   customCSS:
     - "css/extended/custom.css"
-
-menu:
-  main:
-    - identifier: accueil
-      name: 🏠 Accueil
-      url: "/"
-      weight: 10
-    - identifier: about
-      name: 🙂 À propos
-      url: /about/
-      weight: 20
-    - identifier: projects personnels
-      name: 🔧 Projets personnels
-      url: /projects_personnels/
-      weight: 30
-    - identifier: projects Academique
-      name: 🎓 Projets Académique
-      url: /projects_academique/
-      weight: 40
 
 markup:
   goldmark:
