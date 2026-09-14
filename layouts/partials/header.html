@@ -27,7 +27,7 @@
                     <li>|</li>
                     {{- range . }}
                     {{- if ne $.Lang .Lang }}
-                    <li><a href="{{ .Permalink }}" aria-label="{{ .Language.Label | default .Lang | title }}">{{ .Lang | title }}</a></li>
+                    <li><a href="{{ .Permalink }}" aria-label="{{ .Lang | title }}">{{ .Lang | title }}</a></li>
                     {{- end }}
                     {{- end }}
                 </ul>
