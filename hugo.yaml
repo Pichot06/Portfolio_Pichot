@@ -46,19 +46,19 @@ languages:
       main:
         - identifier: home
           name: Home
-          url: "/"
+          url: "https://pichot06.github.io/Portfolio_Pichot/en/"
           weight: 10
         - identifier: about
           name: About
-          url: /about/
+          url: "https://pichot06.github.io/Portfolio_Pichot/en/about/"
           weight: 20
         - identifier: personal-projects
           name: Personal projects
-          url: /personal-projects/
+          url: "https://pichot06.github.io/Portfolio_Pichot/en/personal-projects/"
           weight: 30
         - identifier: academic-projects
           name: Academic projects
-          url: /academic-projects/
+          url: "https://pichot06.github.io/Portfolio_Pichot/en/academic-projects/"
           weight: 40
 
 theme:
