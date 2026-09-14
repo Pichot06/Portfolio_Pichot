@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projet_personnels on Alexandre</title>
+    <link>http://localhost:1313/Portfolio_Pichot/projet_personnels/</link>
+    <description>Recent content in Projet_personnels on Alexandre</description>
+    <image>
+      <title>Alexandre</title>
+      <url>http://localhost:1313/Portfolio_Pichot/1739734917588.jpg</url>
+      <link>http://localhost:1313/Portfolio_Pichot/1739734917588.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.3</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/Portfolio_Pichot/projet_personnels/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Concours de Robotique Cachan 2k24</title>
+      <link>http://localhost:1313/Portfolio_Pichot/projects/Concours-robot-cachan-V2/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Portfolio_Pichot/projects/Concours-robot-cachan-V2/</guid>
+      <description>&lt;p&gt;Pendant ma deuxième année à l’IUT de Nice, j’ai participé au projet national de la Rencontre Robotique des IUT GEII. Cet événement regroupe des étudiants de toute la France autour d’un défi commun : concevoir un robot totalement autonome capable de parcourir un terrain rempli d’obstacles, d’un coin à l’autre, sans aucune intervention extérieure. Le projet sur lequel j’ai travaillé s’inscrit dans le cadre du challenge ESCAPEBOT.&lt;/p&gt;
+&lt;h1 id=&#34;explication-du-projet&#34;&gt;Explication du projet&lt;/h1&gt;
+&lt;p&gt;Le principe est simple en apparence, mais exigeant sur le plan technique : chaque robot, doit quitter sa zone de départ et rejoindre sa zone d’arrivée située en diagonale, tout en évitant les obstacles de 15 cm de hauteur répartis aléatoirement sur le terrain. Le terrain, d’une surface de 8 m sur 8 m, est conçu pour que les parcours soient équivalents pour tous les robots.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
