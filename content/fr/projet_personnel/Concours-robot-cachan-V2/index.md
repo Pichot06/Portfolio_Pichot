@@ -1,5 +1,6 @@
 ---
 title: "Concours de Robotique Cachan deuxième"
+translationKey: robot-cachan-v2
 date: 2024-08-08
 url: "/fr/projects/Concours-robot-cachan-V2/"
 category: projects

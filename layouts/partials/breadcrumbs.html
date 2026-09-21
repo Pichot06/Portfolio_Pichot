@@ -1,0 +1,13 @@
+{{- if (.Param "ShowBreadCrumbs") -}}
+<div class="breadcrumbs">
+    {{- $homeURL := printf "/%s/" site.Language.Lang | relURL }}
+    <a href="{{ $homeURL }}">{{ i18n "home" | default "Home" }}</a>
+    {{- $parent := .Parent -}}
+    {{- if and $parent (ne $parent.RelPermalink .Site.Home.RelPermalink) -}}
+    &nbsp;»&nbsp;<a href="{{ $parent.RelPermalink }}">{{ $parent.Name }}</a>
+    {{- end -}}
+    {{- if not .IsSection -}}
+    &nbsp;»&nbsp;<span>{{ .Title }}</span>
+    {{- end -}}
+</div>
+{{- end -}}

@@ -1,5 +1,6 @@
 ---
 title: "Drone"
+translationKey: drone
 date: 2025-02-24
 url: "/fr/projects/Drone/"
 category: projects
@@ -35,4 +36,3 @@ Simplicité et prédictibilité : faciles à calculer et à implémenter, elles 
 Transitions fluides : grâce à la combinaison de phases linéaires et paraboliques, les LSPB assurent des changements de vitesse progressifs, limitant les chocs, les vibrations et donc l’usure mécanique.
 
 Grande flexibilité : elles s’adaptent facilement à différentes contraintes de temps, de vitesse ou d’accélération, ce qui les rend adaptées à une large gamme d'applications robotiques.
-

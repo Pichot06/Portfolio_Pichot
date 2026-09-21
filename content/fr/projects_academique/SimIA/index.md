@@ -1,5 +1,6 @@
 ---
 title: "SimIA"
+translationKey: simia
 date: 2025-03-24
 url: "/fr/projects/SimIA/"
 category: projects

@@ -1,5 +1,6 @@
 ---
 title: "Création d'un NAS DIY avec Home Assistant intégré"
+translationKey: monitoring-hass-nas
 date: 2025-04-01
 url: "/fr/projects/monitoring_hass_nas/"
 category: projects

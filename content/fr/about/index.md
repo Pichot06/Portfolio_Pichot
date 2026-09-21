@@ -1,5 +1,6 @@
 ---
 title: "À propos"
+translationKey: about
 layout: "about"
 url: "/fr/about/"
 summary: À propos

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Project on Alexandre</title>
+    <link>http://localhost:1313/tags/project/</link>
+    <description>Recent content in Project on Alexandre</description>
+    <image>
+      <title>Alexandre</title>
+      <url>http://localhost:1313/pichot.jpg</url>
+      <link>http://localhost:1313/pichot.jpg</link>
+    </image>
+    <generator>Hugo -- 0.166.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plant Manager</title>
+      <link>http://localhost:1313/en/projects/Arroseur-de-plante/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/Arroseur-de-plante/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;As part of our Electrical Engineering and Industrial Computing degree at IUT Nice, Thomas Gomes and I developed an automatic plant-watering system.&lt;/p&gt;
+&lt;p&gt;The smart plant measures soil moisture, ambient temperature and CO₂ levels, then automatically starts watering according to the collected data. I was responsible for the electronic architecture, sensor testing, PCB design with DesignSpark, and 3D modelling and printing. Thomas developed the web supervision interface.&lt;/p&gt;
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+&lt;div class=&#34;download-container&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/pdfs/rapport_plante.pdf&#34; download class=&#34;download-btn&#34;&gt;
+     📄 Download the report
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.download-container {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.download-btn {
+  display: inline-block;
+  background-color: #2563eb;  
+  color: white;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+.download-btn:hover {
+  background-color: #1e40af;  
+}
+&lt;/style&gt;
+
+&lt;iframe src=&#34;http://localhost:1313/pdfs/rapport_plante.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34; style=&#34;border:none;&#34;&gt;
+  Ce navigateur ne supporte pas les PDF. &lt;a href=&#34;http://localhost:1313/pdfs/rapport_plante.pdf&#34;&gt;Cliquez ici pour le télécharger.&lt;/a&gt;
+&lt;/iframe&gt;</description>
+    </item>
+    <item>
+      <title>SimIA</title>
+      <link>http://localhost:1313/en/projects/SimIA/</link>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/SimIA/</guid>
+      <description>&lt;p&gt;SimIA is an academic project focused on simulation, automation and intelligent systems. It combines electronics, programming and data processing to model and control a technical system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Drone trajectory planning</title>
+      <link>http://localhost:1313/en/projects/Drone/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/Drone/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;For this project, we developed an algorithm allowing a drone to follow a predefined trajectory smoothly and accurately. The goal was to generate waypoints while respecting acceleration, maximum speed and motion-smoothing constraints.&lt;/p&gt;
+&lt;h2 id=&#34;trajectories&#34;&gt;Trajectories&lt;/h2&gt;
+&lt;p&gt;We studied fifth-degree polynomial trajectories and LSPB trajectories (Linear Segment with Parabolic Blends). LSPB trajectories combine linear segments with parabolic transitions. They are predictable, provide smooth speed changes and adapt well to robotics constraints.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Class-D audio amplifier</title>
+      <link>http://localhost:1313/en/projects/Enceinte/</link>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/Enceinte/</guid>
+      <description>Building a Class-D amplifier</description>
+    </item>
+  </channel>
+</rss>

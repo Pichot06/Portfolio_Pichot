@@ -1,5 +1,6 @@
 ---
 title: "Concours de Robotique Cachan première année"
+translationKey: robot-cachan-v1
 date: 2023-06-08
 url: "/fr/projects/Concours-robot-cachan-V1/"
 category: projects
@@ -314,5 +315,4 @@ Au final, l’équipe de Nice a réussi à valider tous les challenges du vendre
 
 Au-delà des aspects techniques, la Coupe de Robotique de Cachan a été une véritable aventure humaine.
 Cette expérience nous a permis de développer notre esprit d’équipe dans un environnement aussi stimulant qu’exigeant. Nous avons appris à communiquer de manière claire, à faire face aux imprévus, et à avancer ensemble dans un esprit d’entraide. Elle a renforcé notre cohésion de groupe et favorisé la création de liens solides avec les étudiants de première année. L’ambiance bienveillante, ainsi que le partage des compétences entre promotions, ont joué un rôle essentiel dans la réussite du projet, illustrant à quel point les relations humaines sont au cœur du travail collectif.
-
 

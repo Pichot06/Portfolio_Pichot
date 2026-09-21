@@ -1,11 +1,8 @@
 baseURL: "https://Pichot06.github.io/Portfolio_Pichot/"
-relativeURLs: true
-canonifyURLs: true
+relativeURLs: false
+canonifyURLs: false
 languageCode: en-us
-title: My New Hugo Site
-
-
-title: My New Hugo Site
+title: Alexandre Pichot
 
 theme:
   - PaperMod
@@ -13,9 +10,6 @@ theme:
 caches:
   images:
     dir: :cacheDir/images
-
-
-
 
 # Paramètres globaux
 params:
@@ -35,6 +29,51 @@ params:
       - "css/extended/custom.css"
 
 languages:
+  en:
+    languageName: 🇬🇧
+    weight: 10
+    title: Alexandre
+    contentDir: content/en
+    menu:
+      main:
+        - identifier: home
+          name: 🏠 Home
+          url: ""
+          weight: 10
+        - identifier: about
+          name: 🙂 About
+          url: about/
+          weight: 20
+        - identifier: personal-projects
+          name: 🔧 Personal projects
+          url: personal-projects/
+          weight: 30
+        - identifier: academic-projects
+          name: 🎓 Academic projects
+          url: academic-projects/
+          weight: 40
+    params:
+      ShowReadingTime: true
+      images: ["pichot.jpg"]
+      profileMode:
+        enabled: true
+        title: "Alexandre Pichot"
+        subtitle: "Third-year Electrical Engineering and Industrial Computing student, looking for a work-study position in electrical energy, industrial computing or electronics."
+        imageUrl: "pichot.jpg"
+        imageTitle: "Alexandre Pichot"
+        imageWidth: 120
+        imageHeight: 120
+        buttons:
+          - name: Download my resume
+            url: "/en/CV_Pichot.pdf"
+      DateFormat: "January 2, 2006"
+      socialIcons:
+        - name: linkedin
+          url: "https://www.linkedin.com/in/alexandre-pichot-a81360233/"
+        - name: github
+          url: "https://github.com/Pichot06"
+        - name: email
+          url: "mailto:alexandre.pichotx@gmail.com"
   fr:
     languageName: 🇫🇷
     weight: 20
@@ -46,19 +85,19 @@ languages:
       main:
         - identifier: accueil
           name: 🏠 Accueil
-          url: /fr/
+          url: ""
           weight: 10
         - identifier: about
           name: 🙂 À propos
-          url: /fr/about/
+          url: about/
           weight: 20
-        - identifier: projects personnel
+        - identifier: projects-personnel
           name: 🔧 Projets personnel
-          url: /fr/projects_personnel/
+          url: projects_personnel/
           weight: 30
-        - identifier: projects Academique
+        - identifier: projects-academique
           name: 🎓 Projets Académique
-          url: /fr/projects_Academique/
+          url: projects_Academique/
           weight: 40
 
     # Paramètres spécifiques à la langue FR

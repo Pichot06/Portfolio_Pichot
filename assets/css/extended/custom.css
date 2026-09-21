@@ -41,3 +41,32 @@ pre code::-webkit-scrollbar-track {
 pre code::-webkit-scrollbar-corner {
   background: #1e1e1e;
 }
+
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lang-flag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.8rem;
+  min-height: 1.8rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 1.05rem;
+  line-height: 1;
+  text-decoration: none;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.lang-flag:hover,
+.lang-flag:focus-visible {
+  border-color: var(--primary);
+  transform: scale(1.08);
+}

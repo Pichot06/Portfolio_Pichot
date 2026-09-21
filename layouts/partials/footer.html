@@ -1,0 +1,10 @@
+<footer class="footer">
+    <span>&copy; {{ now.Year }}
+        {{- $homeURL := printf "/%s/" site.Language.Lang | relURL -}}
+        <a href="{{ $homeURL }}">{{ site.Title }}</a>
+    </span>
+    <span> · Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener noreferrer" target="_blank">PaperMod</a>
+    </span>
+</footer>

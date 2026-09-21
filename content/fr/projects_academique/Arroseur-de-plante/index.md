@@ -1,5 +1,6 @@
 ---
 title: "Plant Manager"
+translationKey: plant-manager
 date: 2025-02-26
 url: "/fr/projects/Arroseur-de-plante/"
 category: projects
