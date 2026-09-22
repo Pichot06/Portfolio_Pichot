@@ -1,6 +1,8 @@
 baseURL: "https://Pichot06.github.io/Portfolio_Pichot/"
 relativeURLs: false
 canonifyURLs: false
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
 languageCode: en-us
 title: Alexandre Pichot
 
