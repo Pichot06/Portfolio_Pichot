@@ -61,13 +61,13 @@ pre code::-webkit-scrollbar-corner {
   margin: auto 3px;
   padding: 0.25rem 0.35rem;
   border: 0;
-  border-radius: 4px;
+  border-radius: 0;
   color: var(--content);
   font-size: 16px;
   font-weight: 500;
   line-height: inherit;
   text-decoration: none;
-  transition: color 0.2s ease, background-color 0.2s ease;
+  transition: none;
 }
 
 .lang-flag-icon {
@@ -94,9 +94,13 @@ pre code::-webkit-scrollbar-corner {
 }
 
 .lang-flag:hover,
-.lang-flag:focus-visible {
-  color: inherit;
-  background-color: transparent;
+.lang-flag:focus-visible,
+.lang-flag:active {
+  color: var(--content);
+  background: transparent;
+  box-shadow: none;
+  transform: none;
+  transition: none;
 }
 
 .lang-flag-label {
