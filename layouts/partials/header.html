@@ -8,10 +8,15 @@
 
 <header class="header">
     <nav class="nav">
+        {{- $homePage := site.Home }}
+        {{- if eq site.Language.Lang "fr" }}
+            {{- $homePages := where site.AllPages "Permalink" (printf "%sfr/" site.BaseURL) }}
+            {{- $homePage = index $homePages 0 }}
+        {{- end }}
         <div class="logo">
             {{- $labelText := site.Params.label.text | default site.Title }}
             {{- if site.Title }}
-            {{- $homeURL := printf "/%s/" site.Language.Lang | relURL }}
+            {{- $homeURL := $homePage.Permalink }}
             <a href="{{ $homeURL }}" accesskey="h" title="{{ $labelText }} (Alt + H)">
                 {{- $labelText -}}
             </a>
@@ -40,11 +45,14 @@
         <ul id="menu">
             {{- range $menu }}
             {{- $menuPath := strings.Trim .URL "/" }}
-            {{- $menuURL := printf "/%s/" site.Language.Lang }}
+            {{- $langHomeURL := $homePage.Permalink }}
+            {{- $menuURL := $langHomeURL }}
             {{- if $menuPath }}
-                {{- $menuURL = printf "/%s/%s/" site.Language.Lang $menuPath }}
+                {{- $menuPages := where site.AllPages "Permalink" (printf "%s%s/%s/" site.BaseURL site.Language.Lang $menuPath) }}
+                {{- $menuPage := index $menuPages 0 }}
+                {{- $menuURL = $menuPage.Permalink }}
             {{- end }}
-            <li><a href="{{ $menuURL | relURL }}" title="{{ .Name }}"><span>{{ .Name }}</span></a></li>
+            <li><a href="{{ $menuURL }}" title="{{ .Name }}"><span>{{ .Name }}</span></a></li>
             {{- end }}
         </ul>
     </nav>

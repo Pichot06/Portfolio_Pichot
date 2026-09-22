@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Robotics on Alexandre</title>
-    <link>http://localhost:54091/Portfolio_Pichot/tags/robotics/</link>
+    <link>http://localhost:1313/tags/robotics/</link>
     <description>Recent content in Robotics on Alexandre</description>
     <image>
       <title>Alexandre</title>
-      <url>http://localhost:54091/Portfolio_Pichot/pichot.jpg</url>
-      <link>http://localhost:54091/Portfolio_Pichot/pichot.jpg</link>
+      <url>http://localhost:1313/pichot.jpg</url>
+      <link>http://localhost:1313/pichot.jpg</link>
     </image>
     <generator>Hugo -- 0.166.0</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:54091/Portfolio_Pichot/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Robot Cachan competition - V2</title>
-      <link>http://localhost:54091/Portfolio_Pichot/en/projects/Concours-robot-cachan-V2/</link>
+      <link>http://localhost:1313/en/projects/Concours-robot-cachan-V2/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54091/Portfolio_Pichot/en/projects/Concours-robot-cachan-V2/</guid>
+      <guid>http://localhost:1313/en/projects/Concours-robot-cachan-V2/</guid>
       <description>&lt;p&gt;This second version improves the robot developed for the Cachan competition. It focuses on mechanical reliability, autonomous navigation and iterative testing to improve performance during the challenges.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Robot Cachan competition - V1</title>
-      <link>http://localhost:54091/Portfolio_Pichot/en/projects/Concours-robot-cachan-V1/</link>
+      <link>http://localhost:1313/en/projects/Concours-robot-cachan-V1/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54091/Portfolio_Pichot/en/projects/Concours-robot-cachan-V1/</guid>
+      <guid>http://localhost:1313/en/projects/Concours-robot-cachan-V1/</guid>
       <description>&lt;p&gt;This project was developed for the Cachan robotics competition. The team designed, built and programmed an autonomous robot to complete the required challenges while meeting constraints on movement, control and reliability.&lt;/p&gt;</description>
     </item>
   </channel>

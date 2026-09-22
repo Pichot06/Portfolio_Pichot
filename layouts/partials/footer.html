@@ -1,6 +1,11 @@
 <footer class="footer">
     <span>&copy; {{ now.Year }}
-        {{- $homeURL := printf "/%s/" site.Language.Lang | relURL -}}
+        {{- $homePage := site.Home -}}
+        {{- if eq site.Language.Lang "fr" -}}
+            {{- $homePages := where site.AllPages "Permalink" (printf "%sfr/" site.BaseURL) -}}
+            {{- $homePage = index $homePages 0 -}}
+        {{- end -}}
+        {{- $homeURL := $homePage.Permalink -}}
         <a href="{{ $homeURL }}">{{ site.Title }}</a>
     </span>
     <span> · Powered by

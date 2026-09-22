@@ -65,7 +65,7 @@ languages:
         imageHeight: 120
         buttons:
           - name: Download my resume
-            url: "/en/CV_Pichot.pdf"
+            url: "en/CV_Pichot.pdf"
       DateFormat: "January 2, 2006"
       socialIcons:
         - name: linkedin
@@ -114,7 +114,7 @@ languages:
         imageHeight: 120
         buttons:
           - name: Télécharger le CV
-            url: "/fr/CV_Pichot.pdf"
+            url: "CV_Pichot.pdf"
       DateFormat: "2 January 2006"
       socialIcons:
         - name: "linkedin"

@@ -1,6 +1,11 @@
 {{- if (.Param "ShowBreadCrumbs") -}}
 <div class="breadcrumbs">
-    {{- $homeURL := printf "/%s/" site.Language.Lang | relURL }}
+    {{- $homePage := site.Home }}
+    {{- if eq site.Language.Lang "fr" }}
+        {{- $homePages := where site.AllPages "Permalink" (printf "%sfr/" site.BaseURL) }}
+        {{- $homePage = index $homePages 0 }}
+    {{- end }}
+    {{- $homeURL := $homePage.Permalink }}
     <a href="{{ $homeURL }}">{{ i18n "home" | default "Home" }}</a>
     {{- $parent := .Parent -}}
     {{- if and $parent (ne $parent.RelPermalink .Site.Home.RelPermalink) -}}
