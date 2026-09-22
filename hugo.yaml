@@ -107,7 +107,7 @@ languages:
       profileMode:
         enabled: true
         title: "Alexandre Pichot"
-        subtitle: "Étudiant en 4e année d'école d'ingénieur à l'INSA Hauts-de-France en génie électrique, je recherche un stage de 3 mois à l'étranger à partir de la dernière semaine d'avril, dans le domaine de l'électronique et de l'informatique industrielle."
+        subtitle: "Étudiant en 4e année d'école d'ingénieur à l'INSA Hauts-de-France en génie électrique, je recherche un stage de 3 mois à l'étranger à partir de la dernière semaine d'avril, dans le domaine de l'électronique ou de l'informatique industrielle."
         imageUrl: "pichot.jpg"
         imageTitle: "Alexandre Pichot"
         imageWidth: 120
