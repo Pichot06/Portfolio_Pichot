@@ -34,7 +34,7 @@
                     <li>
                         <a class="lang-flag" href="{{ .Permalink }}" aria-label="Switch to {{ .Language.LanguageName }}" title="Switch to {{ .Language.LanguageName }}">
                             <span class="lang-flag-icon lang-flag-{{ .Language.Lang }}" aria-hidden="true"></span>
-                            <span class="lang-flag-label">{{ .Language.LanguageName }}</span>
+                            <span class="lang-flag-label">{{ upper .Language.Lang }}</span>
                         </a>
                     </li>
                     {{- end }}
