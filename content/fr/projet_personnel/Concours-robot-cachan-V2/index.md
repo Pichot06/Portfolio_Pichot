@@ -216,10 +216,7 @@ Voici les deux côtés de la face supérieure du robot, solidement fixés à l�
 
 La vidéo de présentation du projet montre seulement 4 blocs sur le terrain, car elle a été réalisée pendant la phase de qualification. Par la suite, le nombre de blocs augmente progressivement, pouvant aller jusqu’à 20 lors des phases avancées.
 
-<video width="100%" height="auto" controls>
-  <source src="/videos/1.mp4" type="video/mp4">
-  Votre navigateur ne supporte pas la vidéo HTML5.
-</video>
+{{< video file="1.mp4" >}}
 
 # Conclusion : Un rapport humain
 

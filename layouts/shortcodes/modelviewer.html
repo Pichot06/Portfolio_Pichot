@@ -1,5 +1,5 @@
 <model-viewer 
-  src="{{ .Get "src" }}" 
+  src="{{ .Get "src" | relURL }}" 
   alt="Modèle 3D"
   camera-controls 
   auto-rotate 
