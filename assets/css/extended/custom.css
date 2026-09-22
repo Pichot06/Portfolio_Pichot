@@ -95,8 +95,8 @@ pre code::-webkit-scrollbar-corner {
 
 .lang-flag:hover,
 .lang-flag:focus-visible {
-  color: var(--primary);
-  background-color: var(--code-bg);
+  color: inherit;
+  background-color: transparent;
 }
 
 .lang-flag-label {
