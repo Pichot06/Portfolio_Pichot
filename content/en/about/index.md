@@ -11,11 +11,11 @@ date: 2024-07-09
 
 ### 👋 Who am I?
 
-My name is Alexandre Pichot. I graduated with a DUT in Electrical Engineering and Industrial Computing from IUT Nice, and I am passionate about home automation, robotics and new technologies. My goal is to design intelligent solutions that make everyday life safer, more comfortable and more sustainable.
+My name is Alexandre Pichot. I am a fourth-year engineering student at INSA Hauts-de-France, specializing in Electrical Engineering and Industrial Computing. I am passionate about home automation, robotics and new technologies, and I am looking for a three-month internship abroad starting in the last week of April 2027, in electronics or industrial computing.
 
 ### 🏫 My background
 
-At IUT Nice, I built strong foundations in electronics, automation, industrial computing and signal processing. This demanding environment allowed me to work on many practical projects and develop a rigorous approach to teamwork.
+At INSA Hauts-de-France, I am developing advanced skills in electronics, automation, industrial computing and signal processing. This demanding environment allows me to work on practical projects and develop a rigorous approach to teamwork.
 
 ### 🤖 Robotics and home automation
 
