@@ -206,7 +206,7 @@ Cette partie accueille le LiDAR 360°, positionné de manière à couvrir enviro
 
 {{< modelviewer src="/models/4.glb" >}}
 
-### Face du dessus (droite,gauche) 
+### Face du dessus (droite,gauche)
 
 {{< modelviewer src="/models/5.glb" >}}
 

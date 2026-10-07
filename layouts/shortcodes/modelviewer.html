@@ -1,5 +1,6 @@
-<model-viewer 
-  src="{{ .Get "src" | relURL }}" 
+{{- $src := .Get "src" | strings.TrimPrefix "/" | relURL -}}
+<model-viewer
+  src="{{ $src }}"
   alt="Modèle 3D"
   camera-controls 
   auto-rotate 

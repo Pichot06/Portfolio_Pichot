@@ -24,15 +24,16 @@ keywords: ["projet", "GEII"]
 Dans le cadre de ce projet, nous avons développé un algorithme permettant à un drone de suivre une trajectoire prédéfinie de manière fluide et précise. L’objectif principal était de générer une suite de points (waypoints) que le drone puisse suivre tout en respectant diverses contraintes physiques et environnementales, telles que l’accélération, la vitesse maximale ou encore le lissage du mouvement.
 
 
-# Trajectoire 
+### Ce que j'ai réalisé
 
-Pour y parvenir, nous avons étudié deux types de trajectoires : les trajectoires polynomiales de 5ᵉ degré et les trajectoires LSPB (Linear Segment with Parabolic Blends).
+* **Modélisation dynamique :** Établissement des équations non linéaires du drone en appliquant les lois de la dynamique (Newton et Euler), puis linéarisation du système autour du point d'équilibre en stationnaire à l'aide de scripts Python et SymPy.
+* **Mise en place de la simulation :** Utilisation de l'environnement PyBullet (`gym-pybullet-drones`) pour tester et valider le comportement du drone dans un espace.
+* **Commande en cascade :** Synthèse et implémentation d'un régulateur PID en boucle fermée. La boucle externe gère la position tandis que la boucle interne stabilise l'attitude, permettant de convertir les consignes de déplacement en vitesses de rotation (RPM) pour chaque moteur.
+* **Génération de trajectoires :** Développement d'algorithmes de planification de mouvement en Python, incluant des profils polynomiaux de degré 5 et des profils trapézoïdaux de type LSPB, garantissant des transitions fluides et sans à-coups.
+* **Caractérisation expérimentale :** Analyse de la relation entre les signaux de commande PWM et la force de poussée réelle des hélices pour affiner l'inversion du modèle statique et dynamique.
 
-🧭 Focus sur les trajectoires LSPB
-Les trajectoires LSPB se composent de segments linéaires et de transitions paraboliques. Elles présentent plusieurs avantages majeurs :
+### Technologies utilisées
 
-Simplicité et prédictibilité : faciles à calculer et à implémenter, elles permettent une planification de mouvement très prévisible. Cela est particulièrement utile dans des contextes industriels, où la répétabilité et la précision sont essentielles.
-
-Transitions fluides : grâce à la combinaison de phases linéaires et paraboliques, les LSPB assurent des changements de vitesse progressifs, limitant les chocs, les vibrations et donc l’usure mécanique.
-
-Grande flexibilité : elles s’adaptent facilement à différentes contraintes de temps, de vitesse ou d’accélération, ce qui les rend adaptées à une large gamme d'applications robotiques.
+* **Langage :** Python (NumPy, SciPy, SymPy, Matplotlib)
+* **Simulation :** PyBullet
+* **Outils :** Git, environnement Linux / VS Code
