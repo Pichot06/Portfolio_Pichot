@@ -1,5 +1,11 @@
+{{- $file := .Get "file" -}}
+{{- $resource := .Page.Resources.GetMatch $file -}}
+{{- $pdfURL := printf "pdfs/%s" $file | relURL -}}
+{{- with $resource -}}
+  {{- $pdfURL = .RelPermalink -}}
+{{- end -}}
 <div class="download-container">
-  <a href="{{ printf "pdfs/%s" (.Get "file") | relURL }}" download class="download-btn">
+  <a href="{{ $pdfURL }}" download class="download-btn">
      {{ .Get "label" | default "Télécharger le PDF" }}
   </a>
 </div>

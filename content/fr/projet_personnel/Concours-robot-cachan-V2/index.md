@@ -50,9 +50,11 @@ J’ai aussi intégré un écran LCD TFT ST7735 de 1,8 pouce, avec une résoluti
 
 Enfin, j’ai implémenté l’affichage d’images au format RGB565 après conversion avec un script Python, tout en respectant la limite mémoire de la carte. La communication avec le robot se fait via le bus CAN à l’adresse 0x103.
 
-{{< figure src="IHM_sch.png" align="center" width="600px">}}
+
+{{< figure src="IHM_sch.png" align="center" width="500px">}}
 _Schématique carte IHM_
-{{< figure src="IHM_pcb.png" align="center" width="600px">}}
+
+{{< figure src="IHM_pcb.png" align="center" width="500px">}}
 _PCB carte IHM_
 
 Code Carte IHM

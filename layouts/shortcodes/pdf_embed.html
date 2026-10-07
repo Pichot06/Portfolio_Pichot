@@ -1,4 +1,9 @@
-{{- $pdfURL := printf "pdfs/%s" (.Get "file") | relURL -}}
+{{- $file := .Get "file" -}}
+{{- $resource := .Page.Resources.GetMatch $file -}}
+{{- $pdfURL := printf "pdfs/%s" $file | relURL -}}
+{{- with $resource -}}
+  {{- $pdfURL = .RelPermalink -}}
+{{- end -}}
 <iframe src="{{ $pdfURL }}" width="100%" height="600px" style="border:none;">
   Ce navigateur ne supporte pas les PDF. <a href="{{ $pdfURL }}">Cliquez ici pour le télécharger.</a>
 </iframe>
